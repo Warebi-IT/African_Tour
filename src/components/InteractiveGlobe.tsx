@@ -280,12 +280,12 @@ const InteractiveGlobe: React.FC<InteractiveGlobeProps> = ({ variant = 'default'
         }
         radius = Math.max(0.5, radius);
 
-        let baseAlpha = Math.max(0, 0.6 - (p.rowOffset / 80));
+        const baseAlpha = Math.max(0, 0.6 - (p.rowOffset / 80));
         let alpha = baseAlpha * (0.3 + wave * 0.7);
 
-        let rC = variant === 'vivid' ? 255 : 233;
-        let gC = variant === 'vivid' ? 107 : 155;
-        let bC = variant === 'vivid' ? 158 : 169;
+        const rC = variant === 'vivid' ? 185 : 200;
+        const gC = variant === 'vivid' ? 95 : 184;
+        const bC = variant === 'vivid' ? 61 : 160;
 
         if (hoverRatio > 0) {
           radius += hoverRatio * (extraGap * 0.4);
