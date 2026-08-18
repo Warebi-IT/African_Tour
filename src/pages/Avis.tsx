@@ -27,11 +27,11 @@ const Avis = () => {
           <p className="font-dm-sans text-sm uppercase tracking-wider font-bold mb-4 text-citra-orange">
             [ TÉMOIGNAGES ]
           </p>
-          <h1 className="font-pp-neue-corp-compact text-5xl md:text-7xl font-black uppercase tracking-tight text-ink mb-6">
-            Elles ont adoré
+          <h1 className="font-pp-neue-corp-compact text-5xl md:text-7xl font-semibold tracking-tight text-ink mb-6">
+            Ils l'ont vécu
           </h1>
           <p className="font-dm-sans text-lg md:text-xl font-medium text-ink/70 max-w-2xl mx-auto">
-            Découvrez les retours d'expérience des Goldies qui ont déjà partagé une aventure avec nous.
+            Découvrez les retours d'expérience des voyageurs qui ont déjà partagé une aventure African Tour.
           </p>
         </div>
 
@@ -47,7 +47,7 @@ const Avis = () => {
                 <div className="flex items-center justify-between mb-6">
                   <div className="flex items-center gap-3">
                     {/* Avatar */}
-                    <div className="w-12 h-12 rounded-full bg-[#e99ba9] flex items-center justify-center text-white font-pp-neue-corp-compact text-lg font-black uppercase shadow-sm flex-shrink-0">
+                    <div className="w-12 h-12 rounded-full bg-citra-orange flex items-center justify-center text-white font-pp-neue-corp-compact text-lg font-semibold shadow-sm flex-shrink-0">
                       {review.firstName[0]}{review.lastName[0]}
                     </div>
                     <div>

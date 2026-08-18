@@ -10,7 +10,7 @@ import AdminUsers from "@/components/admin/AdminUsers";
 import logo from "@/assets/logo.png";
 import { LogOut, Shield } from "lucide-react";
 
-const EMAIL_DOMAIN = "goldies.local";
+const EMAIL_DOMAIN = "africantour.local";
 
 interface LoginFormProps {
   isBootstrap: boolean;
@@ -35,7 +35,7 @@ const LoginForm = ({ isBootstrap, onLogin, onBootstrap }: LoginFormProps) => {
     <div className="min-h-screen flex items-center justify-center bg-muted/30 px-4">
       <div className="w-full max-w-sm bg-card rounded-2xl shadow-lg p-8">
         <div className="flex items-center gap-2 justify-center mb-6">
-          <img src={logo} alt="Goldies Travel" className="h-10 w-10" />
+          <img src={logo} alt="African Tour" className="h-10 w-10" />
           <span className="font-serif text-xl font-bold text-foreground">Admin</span>
         </div>
         {isBootstrap && (
@@ -217,9 +217,9 @@ const Admin = () => {
     <div className="min-h-screen bg-muted/30">
       <header className="bg-card border-b border-border px-6 py-4 flex items-center justify-between">
         <div className="flex items-center gap-2">
-          <img src={logo} alt="Goldies Travel" className="h-8 w-8" />
+          <img src={logo} alt="African Tour" className="h-8 w-8" />
           <span className="font-serif text-lg font-bold text-foreground">
-            Goldies <span className="text-primary">Admin</span>
+            African Tour <span className="text-primary">Admin</span>
           </span>
         </div>
         <div className="flex items-center gap-3">

@@ -9,16 +9,16 @@ const PolitiqueConfidentialite = () => {
       
       <main className="pt-32 pb-20">
         <div className="container mx-auto max-w-[800px] px-6">
-          <h1 className="font-pp-neue-corp-compact text-5xl md:text-7xl font-black text-ink uppercase tracking-tight mb-12">
+ <h1 className="font-pp-neue-corp-compact text-5xl md:text-7xl font-semibold text-ink tracking-tight mb-12">
             Politique de Confidentialité
           </h1>
           
-          <div className="prose prose-lg prose-headings:font-pp-neue-corp-compact prose-headings:uppercase prose-headings:tracking-tight prose-a:text-citra-orange max-w-none font-dm-sans text-ink/80">
+ <div className="prose prose-lg prose-headings:font-pp-neue-corp-compact prose-headings:prose-headings:tracking-tight prose-a:text-citra-orange max-w-none font-dm-sans text-ink/80">
             
             <p><strong>Dernière mise à jour : {new Date().toLocaleDateString('fr-FR')}</strong></p>
 
             <p>
-              Chez Goldies Travel, nous accordons une importance primordiale à la protection de vos données personnelles. Cette politique vise à vous informer en toute transparence sur la manière dont nous collectons, utilisons et protégeons vos informations conformément au Règlement Général sur la Protection des Données (RGPD).
+              Chez African Tour, nous accordons une importance primordiale à la protection de vos données personnelles. Cette politique vise à vous informer en toute transparence sur la manière dont nous collectons, utilisons et protégeons vos informations conformément au Règlement Général sur la Protection des Données (RGPD).
             </p>
 
             <h2>1. Données collectées</h2>
@@ -63,7 +63,7 @@ const PolitiqueConfidentialite = () => {
               <li>Droit à la portabilité de vos données.</li>
             </ul>
             <p>
-              Pour exercer ces droits, contactez-nous à : <a href="mailto:contact@goldiestravel.com">contact@goldiestravel.com</a>.
+              Pour exercer ces droits, contactez-nous à : <a href="mailto:contact@africantour.com">contact@africantour.com</a>.
             </p>
 
             <h2>6. Cookies</h2>

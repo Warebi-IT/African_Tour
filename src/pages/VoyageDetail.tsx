@@ -206,7 +206,7 @@ const VoyageDetail = () => {
             <MapPin size={16} className="text-citra-orange" />
             <span className="font-dm-sans text-xs font-bold uppercase tracking-wider">{trip.destination}</span>
           </div>
-          <h1 className="font-pp-neue-corp-compact text-5xl md:text-7xl font-black text-white uppercase tracking-tight drop-shadow-lg">{trip.name}</h1>
+ <h1 className="font-pp-neue-corp-compact text-5xl md:text-7xl font-semibold text-white tracking-tight drop-shadow-lg">{trip.name}</h1>
         </div>
       </section>
 
@@ -215,14 +215,14 @@ const VoyageDetail = () => {
         <div className="container mx-auto px-6 grid lg:grid-cols-3 gap-12">
           <div className="lg:col-span-2 space-y-12">
             <div className="bg-white/80 backdrop-blur-sm shadow-xl p-8 rounded-[32px]">
-              <h2 className="font-pp-neue-corp-compact text-2xl font-black uppercase tracking-tight mb-4">Description</h2>
+ <h2 className="font-pp-neue-corp-compact text-2xl font-semibold tracking-tight mb-4">Description</h2>
               <p className="font-dm-sans text-ink/80 leading-relaxed whitespace-pre-line text-sm md:text-base">
                 {trip.description || "Aucune description disponible."}
               </p>
             </div>
 
             <div className="bg-white/80 backdrop-blur-sm shadow-xl p-8 rounded-[32px]">
-              <h2 className="font-pp-neue-corp-compact text-2xl font-black uppercase tracking-tight mb-6">Programme jour par jour</h2>
+ <h2 className="font-pp-neue-corp-compact text-2xl font-semibold tracking-tight mb-6">Programme jour par jour</h2>
               {program.length === 0 ? (
                 <p className="font-dm-sans text-sm text-ink/60">Programme à venir.</p>
               ) : (
@@ -233,7 +233,7 @@ const VoyageDetail = () => {
                         <span className="w-10 h-10 rounded-full shadow-sm bg-hazard-yellow text-ink flex items-center justify-center font-dm-sans font-bold text-sm">
                           J{i + 1}
                         </span>
-                        <h3 className="font-pp-neue-corp-compact text-lg font-black text-ink uppercase tracking-tight">{day.title}</h3>
+ <h3 className="font-pp-neue-corp-compact text-lg font-semibold text-ink tracking-tight">{day.title}</h3>
                       </div>
                       <p className="text-sm font-dm-sans text-ink/80 leading-relaxed whitespace-pre-line">
                         {day.description}
@@ -248,7 +248,7 @@ const VoyageDetail = () => {
             {allPhotos.length > 0 && (
               <div className="bg-white/80 backdrop-blur-sm shadow-xl p-8 rounded-[32px] space-y-6">
                 <div className="flex items-center justify-between">
-                  <h2 className="font-pp-neue-corp-compact text-2xl font-black uppercase tracking-tight text-ink">
+ <h2 className="font-pp-neue-corp-compact text-2xl font-semibold tracking-tight text-ink">
                     L'album photo du voyage
                   </h2>
                   <span className="font-dm-sans text-xs font-bold text-ink/50 bg-ink/5 px-3 py-1 rounded-full">
@@ -288,7 +288,7 @@ const VoyageDetail = () => {
           <aside className="lg:sticky lg:top-32 h-fit bg-white/80 backdrop-blur-sm rounded-[32px] shadow-xl p-8 text-ink space-y-6">
             <div className="flex items-baseline justify-between">
               <span className="font-dm-sans text-sm text-ink/60">À partir de</span>
-              <span className="font-pp-neue-corp-compact text-4xl font-black text-citra-orange">{trip.price} €</span>
+ <span className="font-pp-neue-corp-compact text-4xl font-semibold text-citra-orange">{trip.price} €</span>
             </div>
             <div className="space-y-4 text-sm border-t border-ink/5 pt-6">
               <div className="flex items-center gap-3 font-dm-sans text-ink/80">
@@ -309,7 +309,7 @@ const VoyageDetail = () => {
 
             {trip.includes && trip.includes.length > 0 && (
               <div className="border-t border-ink/5 pt-6">
-                <p className="font-pp-neue-corp-compact text-sm font-black uppercase tracking-wider mb-4 text-ink/80">Inclus dans le séjour</p>
+ <p className="font-pp-neue-corp-compact text-sm font-semibold tracking-wider mb-4 text-ink/80">Inclus dans le séjour</p>
                 <ul className="space-y-3">
                   {trip.includes.map((item: string) => (
                     <li key={item} className="flex items-center gap-3 text-sm font-dm-sans text-ink/80">

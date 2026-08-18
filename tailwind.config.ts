@@ -15,9 +15,10 @@ export default {
     extend: {
       fontFamily: {
         sans: ["var(--font-sans-serif)"],
-        serif: ["Playfair Display", "serif"],
+        serif: ["var(--font-pp-neue-corp-compact)", "serif"],
         "dm-sans": ["var(--font-dm-sans)"],
         "pp-neue-corp-compact": ["var(--font-pp-neue-corp-compact)"],
+        caveat: ["var(--font-caveat)"],
         control: ["var(--font-dm-sans)"],
         "control-compressed": ["var(--font-pp-neue-corp-compact)"],
         "control-cursive": ["var(--font-pp-neue-corp-compact)"],
@@ -32,6 +33,7 @@ export default {
         "concrete-canvas": "var(--color-concrete-canvas)",
         "cream-card": "var(--color-cream-card)",
         ink: "var(--color-ink)",
+        espresso: "var(--color-espresso)",
         "pure-black": "var(--color-pure-black)",
         "paper-white": "var(--color-paper-white)",
         "citra-orange": "var(--color-citra-orange)",

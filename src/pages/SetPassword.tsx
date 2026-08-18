@@ -33,7 +33,7 @@ const SetPassword = () => {
 
   useEffect(() => {
     if (!success) return;
-    const timer = setTimeout(() => navigate("/gestion-goldies"), 2000);
+    const timer = setTimeout(() => navigate("/gestion-african-tour"), 2000);
     return () => clearTimeout(timer);
   }, [success, navigate]);
 
@@ -75,14 +75,14 @@ const SetPassword = () => {
     <div className="min-h-screen flex items-center justify-center bg-muted/30 px-4">
       <div className="w-full max-w-sm bg-card rounded-2xl shadow-lg p-8">
         <div className="flex items-center gap-2 justify-center mb-6">
-          <img src={logo} alt="Goldies Travel" className="h-10 w-10" />
+          <img src={logo} alt="African Tour" className="h-10 w-10" />
           <span className="font-serif text-xl font-bold text-foreground">Admin</span>
         </div>
 
         {!hasSession ? (
           <div className="text-center space-y-4">
             <p className="text-sm text-destructive">Lien invalide ou expiré.</p>
-            <a href="/gestion-goldies" className="text-sm text-primary underline">
+            <a href="/gestion-african-tour" className="text-sm text-primary underline">
               Retour à l'administration
             </a>
           </div>

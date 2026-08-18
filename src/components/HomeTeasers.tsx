@@ -1,14 +1,14 @@
 import { Link } from "react-router-dom";
-import { ArrowRight, Heart, Mail, Shield, Users } from "lucide-react";
+import { ArrowRight, Users, Mail, Shield, HeartHandshake } from "lucide-react";
 
 const teasers = [
   {
     to: "/concept",
-    icon: Heart,
-    label: "Concept",
-    title: "Voyager entre femmes, avec du sens",
-    body: "Découvrez notre vision unique et l'organisation minutieuse de nos séjours solidaires 100% féminins. Chaque détail est pensé pour votre sécurité et votre épanouissement.",
-    cta: "En savoir plus",
+    icon: Users,
+    label: "Communauté",
+    title: "Venez seul. Vivez-le ensemble.",
+    body: "En solo, en couple ou entre amis, tout le monde rejoint la même aventure. Le groupe se retrouve directement dans la destination : African Tour s'occupe de créer les conditions pour que chacun trouve naturellement sa place.",
+    cta: "Découvrir le concept",
   },
   {
     to: "/contact",
@@ -22,8 +22,8 @@ const teasers = [
 
 const trustBadges = [
   { icon: Shield, text: "Voyages sécurisés" },
-  { icon: Users, text: "100% féminins" },
-  { icon: Heart, text: "Solidaires & inclusifs" },
+  { icon: Users, text: "Solo, couple ou amis" },
+  { icon: HeartHandshake, text: "Solidaires & inclusifs" },
 ];
 
 const HomeTeasers = () => (
@@ -59,7 +59,7 @@ const HomeTeasers = () => (
               {label}
             </p>
 
-            <h3 className="font-pp-neue-corp-compact font-black uppercase tracking-tight text-ink text-3xl md:text-5xl mb-4 group-hover:text-citra-orange transition-colors">
+ <h3 className="font-pp-neue-corp-compact font-semibold tracking-tight text-ink text-3xl md:text-5xl mb-4 group-hover:text-citra-orange transition-colors">
               {title}
             </h3>
 

@@ -7,7 +7,7 @@ export const reviews = [
     "country": "Maroc",
     "groupSize": 12,
     "rating": 5,
-    "content": "Coucou les Goldie's,\n\nJe tenais à te remercier pour ce magnifique voyage. J'ai eu la chance de découvrir le Maroc et toute la richesse de sa culture. Grâce à toi, nous avons aussi pu apporter du bien autour de nous, en allant à la rencontre de populations et d'organismes dans le besoin à travers des activités variées.\n\nCe voyage entre femmes était tout simplement incroyable, rempli de belles rencontres et de moments inoubliables. Merci encore pour tout 🤍"
+    "content": "Coucou l'équipe African Tour,\n\nJe tenais à vous remercier pour ce magnifique voyage. J'ai eu la chance de découvrir le Maroc et toute la richesse de sa culture. Grâce à vous, nous avons aussi pu apporter du bien autour de nous, en allant à la rencontre de populations et d'organismes locaux à travers des activités variées.\n\nCe voyage était tout simplement incroyable, rempli de belles rencontres et de moments inoubliables. Merci encore pour tout 🤍"
   },
   {
     "id": "2",
@@ -17,7 +17,7 @@ export const reviews = [
     "country": "Sénégal",
     "groupSize": 8,
     "rating": 5,
-    "content": "Une expérience humaine hors du commun. L'organisation était parfaite de A à Z. Le fait de partir uniquement entre femmes crée une vraie sororité et un espace de confiance unique. Les activités solidaires nous ont permis de nous connecter avec les populations locales d'une façon très authentique. Je recommande à 100% !"
+    "content": "Une expérience humaine hors du commun. L'organisation était parfaite de A à Z. Le fait de partir en groupe crée une vraie complicité et un espace de confiance unique. Les activités solidaires nous ont permis de nous connecter avec les populations locales d'une façon très authentique. Je recommande à 100% !"
   },
   {
     "id": "3",
@@ -27,7 +27,7 @@ export const reviews = [
     "country": "Maroc",
     "groupSize": 10,
     "rating": 5,
-    "content": "Je n'avais jamais voyagé en groupe auparavant et j'avais quelques appréhensions, mais Goldies a su me mettre à l'aise tout de suite. Les logements étaient sublimes, les repas délicieux et les activités super bien pensées. Une mention spéciale pour les ateliers d'artisanat avec les femmes locales."
+    "content": "Je n'avais jamais voyagé en groupe auparavant et j'avais quelques appréhensions, mais African Tour a su me mettre à l'aise tout de suite. Les logements étaient sublimes, les repas délicieux et les activités super bien pensées. Une mention spéciale pour les ateliers d'artisanat avec les artisans locaux."
   },
   {
     "id": "4",
@@ -37,7 +37,7 @@ export const reviews = [
     "country": "Sénégal",
     "groupSize": 14,
     "rating": 4,
-    "content": "Ce voyage m'a transformée ! Voir l'impact concret de nos actions solidaires sur place m'a beaucoup touchée. L'ambiance dans le groupe était incroyable, on a énormément ri, partagé et appris les unes des autres. C'est bien plus qu'un simple séjour touristique, c'est une aventure humaine."
+    "content": "Ce voyage m'a changé ! Voir l'impact concret de nos actions solidaires sur place m'a beaucoup marqué. L'ambiance dans le groupe était incroyable, on a énormément ri, partagé et appris les uns des autres. C'est bien plus qu'un simple séjour touristique, c'est une aventure humaine."
   },
   {
     "id": "5",
@@ -47,7 +47,7 @@ export const reviews = [
     "country": "Sénégal",
     "groupSize": 10,
     "rating": 5,
-    "content": "Une belle découverte culturelle et humaine. Le concept 100% féminin est rassurant et très bienveillant."
+    "content": "Une belle découverte culturelle et humaine. L'esprit de groupe est rassurant et très bienveillant."
   },
   {
     "id": "6",
@@ -87,7 +87,7 @@ export const reviews = [
     "country": "Sénégal",
     "groupSize": 14,
     "rating": 5,
-    "content": "Je recommande vivement Goldies. Tout est pensé pour qu'on se sente bien et en sécurité."
+    "content": "Je recommande vivement African Tour. Tout est pensé pour qu'on se sente bien et en sécurité."
   },
   {
     "id": "10",
@@ -97,7 +97,7 @@ export const reviews = [
     "country": "Maroc",
     "groupSize": 8,
     "rating": 5,
-    "content": "Je recommande vivement Goldies. Tout est pensé pour qu'on se sente bien et en sécurité."
+    "content": "Je recommande vivement African Tour. Tout est pensé pour qu'on se sente bien et en sécurité."
   },
   {
     "id": "11",
@@ -117,7 +117,7 @@ export const reviews = [
     "country": "Maroc",
     "groupSize": 12,
     "rating": 5,
-    "content": "Les actions humanitaires m'ont bouleversée. C'est magnifique de lier voyage et entraide."
+    "content": "Les actions solidaires m'ont beaucoup touché. C'est magnifique de lier voyage et entraide."
   },
   {
     "id": "13",
@@ -127,7 +127,7 @@ export const reviews = [
     "country": "Sénégal",
     "groupSize": 7,
     "rating": 5,
-    "content": "Une belle découverte culturelle et humaine. Le concept 100% féminin est rassurant et très bienveillant."
+    "content": "Une belle découverte culturelle et humaine. L'esprit de groupe est rassurant et très bienveillant."
   },
   {
     "id": "14",
@@ -147,7 +147,7 @@ export const reviews = [
     "country": "Sénégal",
     "groupSize": 8,
     "rating": 5,
-    "content": "Je n'avais jamais voyagé en groupe auparavant et j'avais quelques appréhensions, mais Goldies a su me mettre à l'aise tout de suite."
+    "content": "Je n'avais jamais voyagé en groupe auparavant et j'avais quelques appréhensions, mais African Tour a su me mettre à l'aise tout de suite."
   },
   {
     "id": "16",
@@ -167,7 +167,7 @@ export const reviews = [
     "country": "Maroc",
     "groupSize": 11,
     "rating": 5,
-    "content": "Un voyage inoubliable ! L'organisation était au top et j'ai rencontré des femmes extraordinaires. Je recommande à 100%."
+    "content": "Un voyage inoubliable ! L'organisation était au top et j'ai rencontré des gens extraordinaires. Je recommande à 100%."
   },
   {
     "id": "18",
@@ -207,7 +207,7 @@ export const reviews = [
     "country": "Sénégal",
     "groupSize": 13,
     "rating": 5,
-    "content": "Les actions humanitaires m'ont bouleversée. C'est magnifique de lier voyage et entraide."
+    "content": "Les actions solidaires m'ont beaucoup touché. C'est magnifique de lier voyage et entraide."
   },
   {
     "id": "22",
@@ -267,7 +267,7 @@ export const reviews = [
     "country": "Sénégal",
     "groupSize": 13,
     "rating": 5,
-    "content": "Une expérience humaine hors du commun. Le fait de partir uniquement entre femmes crée une vraie sororité."
+    "content": "Une expérience humaine hors du commun. Partir en groupe crée immédiatement des liens forts, même entre inconnus."
   },
   {
     "id": "28",
@@ -277,7 +277,7 @@ export const reviews = [
     "country": "Sénégal",
     "groupSize": 7,
     "rating": 5,
-    "content": "Une expérience humaine hors du commun. Le fait de partir uniquement entre femmes crée une vraie sororité."
+    "content": "Une expérience humaine hors du commun. Partir en groupe crée immédiatement des liens forts, même entre inconnus."
   },
   {
     "id": "29",
@@ -307,7 +307,7 @@ export const reviews = [
     "country": "Maroc",
     "groupSize": 10,
     "rating": 5,
-    "content": "Les actions humanitaires m'ont bouleversée. C'est magnifique de lier voyage et entraide."
+    "content": "Les actions solidaires m'ont beaucoup touché. C'est magnifique de lier voyage et entraide."
   },
   {
     "id": "32",
@@ -317,7 +317,7 @@ export const reviews = [
     "country": "Sénégal",
     "groupSize": 7,
     "rating": 5,
-    "content": "Une belle découverte culturelle et humaine. Le concept 100% féminin est rassurant et très bienveillant."
+    "content": "Une belle découverte culturelle et humaine. L'esprit de groupe est rassurant et très bienveillant."
   },
   {
     "id": "33",
@@ -327,7 +327,7 @@ export const reviews = [
     "country": "Maroc",
     "groupSize": 8,
     "rating": 4,
-    "content": "Un voyage inoubliable ! L'organisation était au top et j'ai rencontré des femmes extraordinaires. Je recommande à 100%."
+    "content": "Un voyage inoubliable ! L'organisation était au top et j'ai rencontré des gens extraordinaires. Je recommande à 100%."
   },
   {
     "id": "34",
@@ -337,7 +337,7 @@ export const reviews = [
     "country": "Maroc",
     "groupSize": 9,
     "rating": 5,
-    "content": "Un voyage inoubliable ! L'organisation était au top et j'ai rencontré des femmes extraordinaires. Je recommande à 100%."
+    "content": "Un voyage inoubliable ! L'organisation était au top et j'ai rencontré des gens extraordinaires. Je recommande à 100%."
   },
   {
     "id": "35",
@@ -357,7 +357,7 @@ export const reviews = [
     "country": "Maroc",
     "groupSize": 15,
     "rating": 4,
-    "content": "Je recommande vivement Goldies. Tout est pensé pour qu'on se sente bien et en sécurité."
+    "content": "Je recommande vivement African Tour. Tout est pensé pour qu'on se sente bien et en sécurité."
   },
   {
     "id": "37",
@@ -367,7 +367,7 @@ export const reviews = [
     "country": "Maroc",
     "groupSize": 7,
     "rating": 5,
-    "content": "Je n'avais jamais voyagé en groupe auparavant et j'avais quelques appréhensions, mais Goldies a su me mettre à l'aise tout de suite."
+    "content": "Je n'avais jamais voyagé en groupe auparavant et j'avais quelques appréhensions, mais African Tour a su me mettre à l'aise tout de suite."
   },
   {
     "id": "38",
@@ -377,7 +377,7 @@ export const reviews = [
     "country": "Sénégal",
     "groupSize": 10,
     "rating": 5,
-    "content": "Les actions humanitaires m'ont bouleversée. C'est magnifique de lier voyage et entraide."
+    "content": "Les actions solidaires m'ont beaucoup touché. C'est magnifique de lier voyage et entraide."
   },
   {
     "id": "39",
@@ -397,7 +397,7 @@ export const reviews = [
     "country": "Maroc",
     "groupSize": 15,
     "rating": 5,
-    "content": "Ce voyage m'a transformée ! Voir l'impact concret de nos actions solidaires sur place m'a beaucoup touchée."
+    "content": "Ce voyage m'a changé ! Voir l'impact concret de nos actions solidaires sur place m'a beaucoup marqué."
   },
   {
     "id": "41",
@@ -407,7 +407,7 @@ export const reviews = [
     "country": "Sénégal",
     "groupSize": 8,
     "rating": 4,
-    "content": "Un voyage inoubliable ! L'organisation était au top et j'ai rencontré des femmes extraordinaires. Je recommande à 100%."
+    "content": "Un voyage inoubliable ! L'organisation était au top et j'ai rencontré des gens extraordinaires. Je recommande à 100%."
   },
   {
     "id": "42",
@@ -417,7 +417,7 @@ export const reviews = [
     "country": "Sénégal",
     "groupSize": 12,
     "rating": 5,
-    "content": "Une expérience humaine hors du commun. Le fait de partir uniquement entre femmes crée une vraie sororité."
+    "content": "Une expérience humaine hors du commun. Partir en groupe crée immédiatement des liens forts, même entre inconnus."
   },
   {
     "id": "43",
@@ -427,7 +427,7 @@ export const reviews = [
     "country": "Sénégal",
     "groupSize": 9,
     "rating": 5,
-    "content": "Un voyage inoubliable ! L'organisation était au top et j'ai rencontré des femmes extraordinaires. Je recommande à 100%."
+    "content": "Un voyage inoubliable ! L'organisation était au top et j'ai rencontré des gens extraordinaires. Je recommande à 100%."
   },
   {
     "id": "44",
@@ -437,7 +437,7 @@ export const reviews = [
     "country": "Sénégal",
     "groupSize": 11,
     "rating": 5,
-    "content": "Je recommande vivement Goldies. Tout est pensé pour qu'on se sente bien et en sécurité."
+    "content": "Je recommande vivement African Tour. Tout est pensé pour qu'on se sente bien et en sécurité."
   },
   {
     "id": "45",
@@ -467,7 +467,7 @@ export const reviews = [
     "country": "Maroc",
     "groupSize": 8,
     "rating": 5,
-    "content": "Un voyage inoubliable ! L'organisation était au top et j'ai rencontré des femmes extraordinaires. Je recommande à 100%."
+    "content": "Un voyage inoubliable ! L'organisation était au top et j'ai rencontré des gens extraordinaires. Je recommande à 100%."
   },
   {
     "id": "48",
@@ -477,7 +477,7 @@ export const reviews = [
     "country": "Sénégal",
     "groupSize": 8,
     "rating": 5,
-    "content": "Une expérience humaine hors du commun. Le fait de partir uniquement entre femmes crée une vraie sororité."
+    "content": "Une expérience humaine hors du commun. Partir en groupe crée immédiatement des liens forts, même entre inconnus."
   },
   {
     "id": "49",
@@ -487,7 +487,7 @@ export const reviews = [
     "country": "Maroc",
     "groupSize": 11,
     "rating": 5,
-    "content": "Un voyage inoubliable ! L'organisation était au top et j'ai rencontré des femmes extraordinaires. Je recommande à 100%."
+    "content": "Un voyage inoubliable ! L'organisation était au top et j'ai rencontré des gens extraordinaires. Je recommande à 100%."
   },
   {
     "id": "50",
@@ -497,7 +497,7 @@ export const reviews = [
     "country": "Maroc",
     "groupSize": 10,
     "rating": 5,
-    "content": "Les actions humanitaires m'ont bouleversée. C'est magnifique de lier voyage et entraide."
+    "content": "Les actions solidaires m'ont beaucoup touché. C'est magnifique de lier voyage et entraide."
   },
   {
     "id": "51",
@@ -527,7 +527,7 @@ export const reviews = [
     "country": "Maroc",
     "groupSize": 12,
     "rating": 5,
-    "content": "Une belle découverte culturelle et humaine. Le concept 100% féminin est rassurant et très bienveillant."
+    "content": "Une belle découverte culturelle et humaine. L'esprit de groupe est rassurant et très bienveillant."
   },
   {
     "id": "54",
@@ -537,7 +537,7 @@ export const reviews = [
     "country": "Maroc",
     "groupSize": 10,
     "rating": 5,
-    "content": "Une belle découverte culturelle et humaine. Le concept 100% féminin est rassurant et très bienveillant."
+    "content": "Une belle découverte culturelle et humaine. L'esprit de groupe est rassurant et très bienveillant."
   },
   {
     "id": "55",
@@ -557,7 +557,7 @@ export const reviews = [
     "country": "Maroc",
     "groupSize": 13,
     "rating": 5,
-    "content": "Ce voyage m'a transformée ! Voir l'impact concret de nos actions solidaires sur place m'a beaucoup touchée."
+    "content": "Ce voyage m'a changé ! Voir l'impact concret de nos actions solidaires sur place m'a beaucoup marqué."
   },
   {
     "id": "57",
@@ -587,7 +587,7 @@ export const reviews = [
     "country": "Sénégal",
     "groupSize": 9,
     "rating": 5,
-    "content": "Les actions humanitaires m'ont bouleversée. C'est magnifique de lier voyage et entraide."
+    "content": "Les actions solidaires m'ont beaucoup touché. C'est magnifique de lier voyage et entraide."
   },
   {
     "id": "60",
@@ -607,7 +607,7 @@ export const reviews = [
     "country": "Maroc",
     "groupSize": 10,
     "rating": 5,
-    "content": "Une belle découverte culturelle et humaine. Le concept 100% féminin est rassurant et très bienveillant."
+    "content": "Une belle découverte culturelle et humaine. L'esprit de groupe est rassurant et très bienveillant."
   },
   {
     "id": "62",
@@ -617,7 +617,7 @@ export const reviews = [
     "country": "Maroc",
     "groupSize": 13,
     "rating": 4,
-    "content": "Un voyage inoubliable ! L'organisation était au top et j'ai rencontré des femmes extraordinaires. Je recommande à 100%."
+    "content": "Un voyage inoubliable ! L'organisation était au top et j'ai rencontré des gens extraordinaires. Je recommande à 100%."
   },
   {
     "id": "63",
@@ -657,7 +657,7 @@ export const reviews = [
     "country": "Sénégal",
     "groupSize": 12,
     "rating": 5,
-    "content": "Je n'avais jamais voyagé en groupe auparavant et j'avais quelques appréhensions, mais Goldies a su me mettre à l'aise tout de suite."
+    "content": "Je n'avais jamais voyagé en groupe auparavant et j'avais quelques appréhensions, mais African Tour a su me mettre à l'aise tout de suite."
   },
   {
     "id": "67",
@@ -677,7 +677,7 @@ export const reviews = [
     "country": "Sénégal",
     "groupSize": 11,
     "rating": 5,
-    "content": "Un voyage inoubliable ! L'organisation était au top et j'ai rencontré des femmes extraordinaires. Je recommande à 100%."
+    "content": "Un voyage inoubliable ! L'organisation était au top et j'ai rencontré des gens extraordinaires. Je recommande à 100%."
   },
   {
     "id": "69",
@@ -717,7 +717,7 @@ export const reviews = [
     "country": "Maroc",
     "groupSize": 10,
     "rating": 4,
-    "content": "Je n'avais jamais voyagé en groupe auparavant et j'avais quelques appréhensions, mais Goldies a su me mettre à l'aise tout de suite."
+    "content": "Je n'avais jamais voyagé en groupe auparavant et j'avais quelques appréhensions, mais African Tour a su me mettre à l'aise tout de suite."
   },
   {
     "id": "73",
@@ -727,7 +727,7 @@ export const reviews = [
     "country": "Sénégal",
     "groupSize": 8,
     "rating": 5,
-    "content": "Un voyage inoubliable ! L'organisation était au top et j'ai rencontré des femmes extraordinaires. Je recommande à 100%."
+    "content": "Un voyage inoubliable ! L'organisation était au top et j'ai rencontré des gens extraordinaires. Je recommande à 100%."
   },
   {
     "id": "74",
@@ -737,7 +737,7 @@ export const reviews = [
     "country": "Maroc",
     "groupSize": 7,
     "rating": 4,
-    "content": "Je n'avais jamais voyagé en groupe auparavant et j'avais quelques appréhensions, mais Goldies a su me mettre à l'aise tout de suite."
+    "content": "Je n'avais jamais voyagé en groupe auparavant et j'avais quelques appréhensions, mais African Tour a su me mettre à l'aise tout de suite."
   },
   {
     "id": "75",
@@ -757,7 +757,7 @@ export const reviews = [
     "country": "Sénégal",
     "groupSize": 14,
     "rating": 5,
-    "content": "Ce voyage m'a transformée ! Voir l'impact concret de nos actions solidaires sur place m'a beaucoup touchée."
+    "content": "Ce voyage m'a changé ! Voir l'impact concret de nos actions solidaires sur place m'a beaucoup marqué."
   },
   {
     "id": "77",
@@ -767,7 +767,7 @@ export const reviews = [
     "country": "Sénégal",
     "groupSize": 9,
     "rating": 4,
-    "content": "Je recommande vivement Goldies. Tout est pensé pour qu'on se sente bien et en sécurité."
+    "content": "Je recommande vivement African Tour. Tout est pensé pour qu'on se sente bien et en sécurité."
   },
   {
     "id": "78",
@@ -777,7 +777,7 @@ export const reviews = [
     "country": "Maroc",
     "groupSize": 8,
     "rating": 5,
-    "content": "Je n'avais jamais voyagé en groupe auparavant et j'avais quelques appréhensions, mais Goldies a su me mettre à l'aise tout de suite."
+    "content": "Je n'avais jamais voyagé en groupe auparavant et j'avais quelques appréhensions, mais African Tour a su me mettre à l'aise tout de suite."
   },
   {
     "id": "79",
@@ -787,7 +787,7 @@ export const reviews = [
     "country": "Sénégal",
     "groupSize": 9,
     "rating": 5,
-    "content": "Une belle découverte culturelle et humaine. Le concept 100% féminin est rassurant et très bienveillant."
+    "content": "Une belle découverte culturelle et humaine. L'esprit de groupe est rassurant et très bienveillant."
   },
   {
     "id": "80",
@@ -817,7 +817,7 @@ export const reviews = [
     "country": "Sénégal",
     "groupSize": 7,
     "rating": 5,
-    "content": "Je n'avais jamais voyagé en groupe auparavant et j'avais quelques appréhensions, mais Goldies a su me mettre à l'aise tout de suite."
+    "content": "Je n'avais jamais voyagé en groupe auparavant et j'avais quelques appréhensions, mais African Tour a su me mettre à l'aise tout de suite."
   },
   {
     "id": "83",
@@ -857,7 +857,7 @@ export const reviews = [
     "country": "Sénégal",
     "groupSize": 15,
     "rating": 4,
-    "content": "Une expérience humaine hors du commun. Le fait de partir uniquement entre femmes crée une vraie sororité."
+    "content": "Une expérience humaine hors du commun. Partir en groupe crée immédiatement des liens forts, même entre inconnus."
   },
   {
     "id": "87",
@@ -887,7 +887,7 @@ export const reviews = [
     "country": "Maroc",
     "groupSize": 7,
     "rating": 5,
-    "content": "Une belle découverte culturelle et humaine. Le concept 100% féminin est rassurant et très bienveillant."
+    "content": "Une belle découverte culturelle et humaine. L'esprit de groupe est rassurant et très bienveillant."
   },
   {
     "id": "90",
@@ -897,7 +897,7 @@ export const reviews = [
     "country": "Sénégal",
     "groupSize": 8,
     "rating": 4,
-    "content": "Un voyage inoubliable ! L'organisation était au top et j'ai rencontré des femmes extraordinaires. Je recommande à 100%."
+    "content": "Un voyage inoubliable ! L'organisation était au top et j'ai rencontré des gens extraordinaires. Je recommande à 100%."
   },
   {
     "id": "91",
@@ -907,7 +907,7 @@ export const reviews = [
     "country": "Maroc",
     "groupSize": 14,
     "rating": 5,
-    "content": "Je recommande vivement Goldies. Tout est pensé pour qu'on se sente bien et en sécurité."
+    "content": "Je recommande vivement African Tour. Tout est pensé pour qu'on se sente bien et en sécurité."
   },
   {
     "id": "92",
@@ -927,7 +927,7 @@ export const reviews = [
     "country": "Maroc",
     "groupSize": 6,
     "rating": 5,
-    "content": "Je n'avais jamais voyagé en groupe auparavant et j'avais quelques appréhensions, mais Goldies a su me mettre à l'aise tout de suite."
+    "content": "Je n'avais jamais voyagé en groupe auparavant et j'avais quelques appréhensions, mais African Tour a su me mettre à l'aise tout de suite."
   },
   {
     "id": "94",
@@ -937,7 +937,7 @@ export const reviews = [
     "country": "Sénégal",
     "groupSize": 12,
     "rating": 5,
-    "content": "Ce voyage m'a transformée ! Voir l'impact concret de nos actions solidaires sur place m'a beaucoup touchée."
+    "content": "Ce voyage m'a changé ! Voir l'impact concret de nos actions solidaires sur place m'a beaucoup marqué."
   },
   {
     "id": "95",
@@ -967,7 +967,7 @@ export const reviews = [
     "country": "Maroc",
     "groupSize": 9,
     "rating": 5,
-    "content": "Les actions humanitaires m'ont bouleversée. C'est magnifique de lier voyage et entraide."
+    "content": "Les actions solidaires m'ont beaucoup touché. C'est magnifique de lier voyage et entraide."
   },
   {
     "id": "98",
@@ -987,7 +987,7 @@ export const reviews = [
     "country": "Sénégal",
     "groupSize": 15,
     "rating": 4,
-    "content": "Je n'avais jamais voyagé en groupe auparavant et j'avais quelques appréhensions, mais Goldies a su me mettre à l'aise tout de suite."
+    "content": "Je n'avais jamais voyagé en groupe auparavant et j'avais quelques appréhensions, mais African Tour a su me mettre à l'aise tout de suite."
   },
   {
     "id": "100",
@@ -997,7 +997,7 @@ export const reviews = [
     "country": "Sénégal",
     "groupSize": 14,
     "rating": 5,
-    "content": "Ce voyage m'a transformée ! Voir l'impact concret de nos actions solidaires sur place m'a beaucoup touchée."
+    "content": "Ce voyage m'a changé ! Voir l'impact concret de nos actions solidaires sur place m'a beaucoup marqué."
   },
   {
     "id": "101",
@@ -1007,7 +1007,7 @@ export const reviews = [
     "country": "Maroc",
     "groupSize": 12,
     "rating": 5,
-    "content": "Une belle découverte culturelle et humaine. Le concept 100% féminin est rassurant et très bienveillant."
+    "content": "Une belle découverte culturelle et humaine. L'esprit de groupe est rassurant et très bienveillant."
   },
   {
     "id": "102",
@@ -1017,7 +1017,7 @@ export const reviews = [
     "country": "Sénégal",
     "groupSize": 8,
     "rating": 5,
-    "content": "Je recommande vivement Goldies. Tout est pensé pour qu'on se sente bien et en sécurité."
+    "content": "Je recommande vivement African Tour. Tout est pensé pour qu'on se sente bien et en sécurité."
   },
   {
     "id": "103",
@@ -1027,7 +1027,7 @@ export const reviews = [
     "country": "Maroc",
     "groupSize": 15,
     "rating": 5,
-    "content": "Une expérience humaine hors du commun. Le fait de partir uniquement entre femmes crée une vraie sororité."
+    "content": "Une expérience humaine hors du commun. Partir en groupe crée immédiatement des liens forts, même entre inconnus."
   },
   {
     "id": "104",
@@ -1057,7 +1057,7 @@ export const reviews = [
     "country": "Maroc",
     "groupSize": 12,
     "rating": 4,
-    "content": "Un voyage inoubliable ! L'organisation était au top et j'ai rencontré des femmes extraordinaires. Je recommande à 100%."
+    "content": "Un voyage inoubliable ! L'organisation était au top et j'ai rencontré des gens extraordinaires. Je recommande à 100%."
   },
   {
     "id": "107",
@@ -1077,7 +1077,7 @@ export const reviews = [
     "country": "Sénégal",
     "groupSize": 13,
     "rating": 5,
-    "content": "Ce voyage m'a transformée ! Voir l'impact concret de nos actions solidaires sur place m'a beaucoup touchée."
+    "content": "Ce voyage m'a changé ! Voir l'impact concret de nos actions solidaires sur place m'a beaucoup marqué."
   },
   {
     "id": "109",
@@ -1087,7 +1087,7 @@ export const reviews = [
     "country": "Maroc",
     "groupSize": 14,
     "rating": 5,
-    "content": "Une belle découverte culturelle et humaine. Le concept 100% féminin est rassurant et très bienveillant."
+    "content": "Une belle découverte culturelle et humaine. L'esprit de groupe est rassurant et très bienveillant."
   },
   {
     "id": "110",
@@ -1107,7 +1107,7 @@ export const reviews = [
     "country": "Maroc",
     "groupSize": 10,
     "rating": 4,
-    "content": "Je recommande vivement Goldies. Tout est pensé pour qu'on se sente bien et en sécurité."
+    "content": "Je recommande vivement African Tour. Tout est pensé pour qu'on se sente bien et en sécurité."
   },
   {
     "id": "112",
@@ -1137,7 +1137,7 @@ export const reviews = [
     "country": "Sénégal",
     "groupSize": 9,
     "rating": 5,
-    "content": "Je recommande vivement Goldies. Tout est pensé pour qu'on se sente bien et en sécurité."
+    "content": "Je recommande vivement African Tour. Tout est pensé pour qu'on se sente bien et en sécurité."
   },
   {
     "id": "115",
@@ -1147,7 +1147,7 @@ export const reviews = [
     "country": "Sénégal",
     "groupSize": 13,
     "rating": 5,
-    "content": "Une expérience humaine hors du commun. Le fait de partir uniquement entre femmes crée une vraie sororité."
+    "content": "Une expérience humaine hors du commun. Partir en groupe crée immédiatement des liens forts, même entre inconnus."
   },
   {
     "id": "116",
@@ -1187,7 +1187,7 @@ export const reviews = [
     "country": "Sénégal",
     "groupSize": 7,
     "rating": 5,
-    "content": "Je recommande vivement Goldies. Tout est pensé pour qu'on se sente bien et en sécurité."
+    "content": "Je recommande vivement African Tour. Tout est pensé pour qu'on se sente bien et en sécurité."
   },
   {
     "id": "120",
@@ -1207,7 +1207,7 @@ export const reviews = [
     "country": "Maroc",
     "groupSize": 9,
     "rating": 5,
-    "content": "Une expérience humaine hors du commun. Le fait de partir uniquement entre femmes crée une vraie sororité."
+    "content": "Une expérience humaine hors du commun. Partir en groupe crée immédiatement des liens forts, même entre inconnus."
   },
   {
     "id": "122",
@@ -1217,7 +1217,7 @@ export const reviews = [
     "country": "Maroc",
     "groupSize": 13,
     "rating": 5,
-    "content": "Une belle découverte culturelle et humaine. Le concept 100% féminin est rassurant et très bienveillant."
+    "content": "Une belle découverte culturelle et humaine. L'esprit de groupe est rassurant et très bienveillant."
   },
   {
     "id": "123",
@@ -1227,7 +1227,7 @@ export const reviews = [
     "country": "Maroc",
     "groupSize": 7,
     "rating": 5,
-    "content": "Je recommande vivement Goldies. Tout est pensé pour qu'on se sente bien et en sécurité."
+    "content": "Je recommande vivement African Tour. Tout est pensé pour qu'on se sente bien et en sécurité."
   },
   {
     "id": "124",
@@ -1257,7 +1257,7 @@ export const reviews = [
     "country": "Sénégal",
     "groupSize": 9,
     "rating": 5,
-    "content": "Ce voyage m'a transformée ! Voir l'impact concret de nos actions solidaires sur place m'a beaucoup touchée."
+    "content": "Ce voyage m'a changé ! Voir l'impact concret de nos actions solidaires sur place m'a beaucoup marqué."
   },
   {
     "id": "127",
@@ -1267,7 +1267,7 @@ export const reviews = [
     "country": "Maroc",
     "groupSize": 8,
     "rating": 5,
-    "content": "Ce voyage m'a transformée ! Voir l'impact concret de nos actions solidaires sur place m'a beaucoup touchée."
+    "content": "Ce voyage m'a changé ! Voir l'impact concret de nos actions solidaires sur place m'a beaucoup marqué."
   },
   {
     "id": "128",
@@ -1287,7 +1287,7 @@ export const reviews = [
     "country": "Maroc",
     "groupSize": 7,
     "rating": 5,
-    "content": "Ce voyage m'a transformée ! Voir l'impact concret de nos actions solidaires sur place m'a beaucoup touchée."
+    "content": "Ce voyage m'a changé ! Voir l'impact concret de nos actions solidaires sur place m'a beaucoup marqué."
   },
   {
     "id": "130",
@@ -1317,7 +1317,7 @@ export const reviews = [
     "country": "Maroc",
     "groupSize": 11,
     "rating": 5,
-    "content": "Je n'avais jamais voyagé en groupe auparavant et j'avais quelques appréhensions, mais Goldies a su me mettre à l'aise tout de suite."
+    "content": "Je n'avais jamais voyagé en groupe auparavant et j'avais quelques appréhensions, mais African Tour a su me mettre à l'aise tout de suite."
   },
   {
     "id": "133",
@@ -1327,7 +1327,7 @@ export const reviews = [
     "country": "Maroc",
     "groupSize": 14,
     "rating": 5,
-    "content": "Une belle découverte culturelle et humaine. Le concept 100% féminin est rassurant et très bienveillant."
+    "content": "Une belle découverte culturelle et humaine. L'esprit de groupe est rassurant et très bienveillant."
   },
   {
     "id": "134",
@@ -1337,7 +1337,7 @@ export const reviews = [
     "country": "Sénégal",
     "groupSize": 10,
     "rating": 5,
-    "content": "Ce voyage m'a transformée ! Voir l'impact concret de nos actions solidaires sur place m'a beaucoup touchée."
+    "content": "Ce voyage m'a changé ! Voir l'impact concret de nos actions solidaires sur place m'a beaucoup marqué."
   },
   {
     "id": "135",
@@ -1367,7 +1367,7 @@ export const reviews = [
     "country": "Maroc",
     "groupSize": 6,
     "rating": 5,
-    "content": "Les actions humanitaires m'ont bouleversée. C'est magnifique de lier voyage et entraide."
+    "content": "Les actions solidaires m'ont beaucoup touché. C'est magnifique de lier voyage et entraide."
   },
   {
     "id": "138",
@@ -1407,7 +1407,7 @@ export const reviews = [
     "country": "Sénégal",
     "groupSize": 13,
     "rating": 5,
-    "content": "Une belle découverte culturelle et humaine. Le concept 100% féminin est rassurant et très bienveillant."
+    "content": "Une belle découverte culturelle et humaine. L'esprit de groupe est rassurant et très bienveillant."
   },
   {
     "id": "142",
@@ -1467,7 +1467,7 @@ export const reviews = [
     "country": "Maroc",
     "groupSize": 12,
     "rating": 5,
-    "content": "Je recommande vivement Goldies. Tout est pensé pour qu'on se sente bien et en sécurité."
+    "content": "Je recommande vivement African Tour. Tout est pensé pour qu'on se sente bien et en sécurité."
   },
   {
     "id": "148",
@@ -1487,7 +1487,7 @@ export const reviews = [
     "country": "Maroc",
     "groupSize": 14,
     "rating": 5,
-    "content": "Je n'avais jamais voyagé en groupe auparavant et j'avais quelques appréhensions, mais Goldies a su me mettre à l'aise tout de suite."
+    "content": "Je n'avais jamais voyagé en groupe auparavant et j'avais quelques appréhensions, mais African Tour a su me mettre à l'aise tout de suite."
   },
   {
     "id": "150",
@@ -1517,7 +1517,7 @@ export const reviews = [
     "country": "Sénégal",
     "groupSize": 8,
     "rating": 4,
-    "content": "Je recommande vivement Goldies. Tout est pensé pour qu'on se sente bien et en sécurité."
+    "content": "Je recommande vivement African Tour. Tout est pensé pour qu'on se sente bien et en sécurité."
   },
   {
     "id": "153",
@@ -1537,7 +1537,7 @@ export const reviews = [
     "country": "Sénégal",
     "groupSize": 12,
     "rating": 4,
-    "content": "Ce voyage m'a transformée ! Voir l'impact concret de nos actions solidaires sur place m'a beaucoup touchée."
+    "content": "Ce voyage m'a changé ! Voir l'impact concret de nos actions solidaires sur place m'a beaucoup marqué."
   },
   {
     "id": "155",
@@ -1547,7 +1547,7 @@ export const reviews = [
     "country": "Maroc",
     "groupSize": 12,
     "rating": 5,
-    "content": "Un voyage inoubliable ! L'organisation était au top et j'ai rencontré des femmes extraordinaires. Je recommande à 100%."
+    "content": "Un voyage inoubliable ! L'organisation était au top et j'ai rencontré des gens extraordinaires. Je recommande à 100%."
   },
   {
     "id": "156",
@@ -1557,7 +1557,7 @@ export const reviews = [
     "country": "Sénégal",
     "groupSize": 6,
     "rating": 5,
-    "content": "Les actions humanitaires m'ont bouleversée. C'est magnifique de lier voyage et entraide."
+    "content": "Les actions solidaires m'ont beaucoup touché. C'est magnifique de lier voyage et entraide."
   },
   {
     "id": "157",
@@ -1567,7 +1567,7 @@ export const reviews = [
     "country": "Maroc",
     "groupSize": 11,
     "rating": 5,
-    "content": "Une expérience humaine hors du commun. Le fait de partir uniquement entre femmes crée une vraie sororité."
+    "content": "Une expérience humaine hors du commun. Partir en groupe crée immédiatement des liens forts, même entre inconnus."
   },
   {
     "id": "158",
@@ -1577,7 +1577,7 @@ export const reviews = [
     "country": "Maroc",
     "groupSize": 9,
     "rating": 5,
-    "content": "Un voyage inoubliable ! L'organisation était au top et j'ai rencontré des femmes extraordinaires. Je recommande à 100%."
+    "content": "Un voyage inoubliable ! L'organisation était au top et j'ai rencontré des gens extraordinaires. Je recommande à 100%."
   },
   {
     "id": "159",
@@ -1597,7 +1597,7 @@ export const reviews = [
     "country": "Sénégal",
     "groupSize": 6,
     "rating": 5,
-    "content": "Une belle découverte culturelle et humaine. Le concept 100% féminin est rassurant et très bienveillant."
+    "content": "Une belle découverte culturelle et humaine. L'esprit de groupe est rassurant et très bienveillant."
   },
   {
     "id": "161",
@@ -1607,7 +1607,7 @@ export const reviews = [
     "country": "Sénégal",
     "groupSize": 9,
     "rating": 5,
-    "content": "Je recommande vivement Goldies. Tout est pensé pour qu'on se sente bien et en sécurité."
+    "content": "Je recommande vivement African Tour. Tout est pensé pour qu'on se sente bien et en sécurité."
   },
   {
     "id": "162",
@@ -1617,7 +1617,7 @@ export const reviews = [
     "country": "Sénégal",
     "groupSize": 13,
     "rating": 4,
-    "content": "Je n'avais jamais voyagé en groupe auparavant et j'avais quelques appréhensions, mais Goldies a su me mettre à l'aise tout de suite."
+    "content": "Je n'avais jamais voyagé en groupe auparavant et j'avais quelques appréhensions, mais African Tour a su me mettre à l'aise tout de suite."
   },
   {
     "id": "163",
@@ -1667,7 +1667,7 @@ export const reviews = [
     "country": "Maroc",
     "groupSize": 7,
     "rating": 5,
-    "content": "Une belle découverte culturelle et humaine. Le concept 100% féminin est rassurant et très bienveillant."
+    "content": "Une belle découverte culturelle et humaine. L'esprit de groupe est rassurant et très bienveillant."
   },
   {
     "id": "168",
@@ -1677,7 +1677,7 @@ export const reviews = [
     "country": "Maroc",
     "groupSize": 15,
     "rating": 5,
-    "content": "Une belle découverte culturelle et humaine. Le concept 100% féminin est rassurant et très bienveillant."
+    "content": "Une belle découverte culturelle et humaine. L'esprit de groupe est rassurant et très bienveillant."
   },
   {
     "id": "169",
@@ -1707,7 +1707,7 @@ export const reviews = [
     "country": "Sénégal",
     "groupSize": 9,
     "rating": 5,
-    "content": "Une expérience humaine hors du commun. Le fait de partir uniquement entre femmes crée une vraie sororité."
+    "content": "Une expérience humaine hors du commun. Partir en groupe crée immédiatement des liens forts, même entre inconnus."
   },
   {
     "id": "172",
@@ -1717,7 +1717,7 @@ export const reviews = [
     "country": "Maroc",
     "groupSize": 6,
     "rating": 5,
-    "content": "Je n'avais jamais voyagé en groupe auparavant et j'avais quelques appréhensions, mais Goldies a su me mettre à l'aise tout de suite."
+    "content": "Je n'avais jamais voyagé en groupe auparavant et j'avais quelques appréhensions, mais African Tour a su me mettre à l'aise tout de suite."
   },
   {
     "id": "173",
@@ -1727,7 +1727,7 @@ export const reviews = [
     "country": "Sénégal",
     "groupSize": 14,
     "rating": 5,
-    "content": "Les actions humanitaires m'ont bouleversée. C'est magnifique de lier voyage et entraide."
+    "content": "Les actions solidaires m'ont beaucoup touché. C'est magnifique de lier voyage et entraide."
   },
   {
     "id": "174",
@@ -1747,7 +1747,7 @@ export const reviews = [
     "country": "Sénégal",
     "groupSize": 7,
     "rating": 5,
-    "content": "Une belle découverte culturelle et humaine. Le concept 100% féminin est rassurant et très bienveillant."
+    "content": "Une belle découverte culturelle et humaine. L'esprit de groupe est rassurant et très bienveillant."
   },
   {
     "id": "176",
@@ -1757,7 +1757,7 @@ export const reviews = [
     "country": "Sénégal",
     "groupSize": 6,
     "rating": 5,
-    "content": "Les actions humanitaires m'ont bouleversée. C'est magnifique de lier voyage et entraide."
+    "content": "Les actions solidaires m'ont beaucoup touché. C'est magnifique de lier voyage et entraide."
   },
   {
     "id": "177",
@@ -1767,7 +1767,7 @@ export const reviews = [
     "country": "Maroc",
     "groupSize": 14,
     "rating": 5,
-    "content": "Je n'avais jamais voyagé en groupe auparavant et j'avais quelques appréhensions, mais Goldies a su me mettre à l'aise tout de suite."
+    "content": "Je n'avais jamais voyagé en groupe auparavant et j'avais quelques appréhensions, mais African Tour a su me mettre à l'aise tout de suite."
   },
   {
     "id": "178",
@@ -1827,7 +1827,7 @@ export const reviews = [
     "country": "Sénégal",
     "groupSize": 15,
     "rating": 5,
-    "content": "Les actions humanitaires m'ont bouleversée. C'est magnifique de lier voyage et entraide."
+    "content": "Les actions solidaires m'ont beaucoup touché. C'est magnifique de lier voyage et entraide."
   },
   {
     "id": "184",
@@ -1847,7 +1847,7 @@ export const reviews = [
     "country": "Maroc",
     "groupSize": 12,
     "rating": 5,
-    "content": "Un voyage inoubliable ! L'organisation était au top et j'ai rencontré des femmes extraordinaires. Je recommande à 100%."
+    "content": "Un voyage inoubliable ! L'organisation était au top et j'ai rencontré des gens extraordinaires. Je recommande à 100%."
   },
   {
     "id": "186",
@@ -1857,7 +1857,7 @@ export const reviews = [
     "country": "Sénégal",
     "groupSize": 6,
     "rating": 5,
-    "content": "Ce voyage m'a transformée ! Voir l'impact concret de nos actions solidaires sur place m'a beaucoup touchée."
+    "content": "Ce voyage m'a changé ! Voir l'impact concret de nos actions solidaires sur place m'a beaucoup marqué."
   },
   {
     "id": "187",
@@ -1887,7 +1887,7 @@ export const reviews = [
     "country": "Sénégal",
     "groupSize": 14,
     "rating": 5,
-    "content": "Les actions humanitaires m'ont bouleversée. C'est magnifique de lier voyage et entraide."
+    "content": "Les actions solidaires m'ont beaucoup touché. C'est magnifique de lier voyage et entraide."
   },
   {
     "id": "190",
@@ -1907,7 +1907,7 @@ export const reviews = [
     "country": "Sénégal",
     "groupSize": 9,
     "rating": 4,
-    "content": "Je recommande vivement Goldies. Tout est pensé pour qu'on se sente bien et en sécurité."
+    "content": "Je recommande vivement African Tour. Tout est pensé pour qu'on se sente bien et en sécurité."
   },
   {
     "id": "192",
@@ -1917,7 +1917,7 @@ export const reviews = [
     "country": "Maroc",
     "groupSize": 12,
     "rating": 5,
-    "content": "Une belle découverte culturelle et humaine. Le concept 100% féminin est rassurant et très bienveillant."
+    "content": "Une belle découverte culturelle et humaine. L'esprit de groupe est rassurant et très bienveillant."
   },
   {
     "id": "193",
@@ -1937,7 +1937,7 @@ export const reviews = [
     "country": "Maroc",
     "groupSize": 14,
     "rating": 5,
-    "content": "Je recommande vivement Goldies. Tout est pensé pour qu'on se sente bien et en sécurité."
+    "content": "Je recommande vivement African Tour. Tout est pensé pour qu'on se sente bien et en sécurité."
   },
   {
     "id": "195",
@@ -1947,7 +1947,7 @@ export const reviews = [
     "country": "Maroc",
     "groupSize": 10,
     "rating": 5,
-    "content": "Les actions humanitaires m'ont bouleversée. C'est magnifique de lier voyage et entraide."
+    "content": "Les actions solidaires m'ont beaucoup touché. C'est magnifique de lier voyage et entraide."
   },
   {
     "id": "196",
@@ -1967,7 +1967,7 @@ export const reviews = [
     "country": "Sénégal",
     "groupSize": 6,
     "rating": 5,
-    "content": "Un voyage inoubliable ! L'organisation était au top et j'ai rencontré des femmes extraordinaires. Je recommande à 100%."
+    "content": "Un voyage inoubliable ! L'organisation était au top et j'ai rencontré des gens extraordinaires. Je recommande à 100%."
   },
   {
     "id": "198",
@@ -1977,7 +1977,7 @@ export const reviews = [
     "country": "Sénégal",
     "groupSize": 8,
     "rating": 4,
-    "content": "Un voyage inoubliable ! L'organisation était au top et j'ai rencontré des femmes extraordinaires. Je recommande à 100%."
+    "content": "Un voyage inoubliable ! L'organisation était au top et j'ai rencontré des gens extraordinaires. Je recommande à 100%."
   },
   {
     "id": "199",
@@ -2017,6 +2017,6 @@ export const reviews = [
     "country": "Maroc",
     "groupSize": 12,
     "rating": 5,
-    "content": "Je recommande vivement Goldies. Tout est pensé pour qu'on se sente bien et en sécurité."
+    "content": "Je recommande vivement African Tour. Tout est pensé pour qu'on se sente bien et en sécurité."
   }
 ];

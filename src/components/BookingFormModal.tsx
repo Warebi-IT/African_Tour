@@ -72,12 +72,12 @@ const BookingFormModal: React.FC<BookingFormModalProps> = ({ isOpen, onClose, tr
         
         {/* Header */}
         <DialogHeader className="px-6 py-6 border-b border-ink/10 bg-white/50 backdrop-blur-md sticky top-0 z-10 shrink-0">
-          <DialogTitle className="font-pp-neue-corp-compact text-3xl font-black uppercase tracking-tight text-ink">
+ <DialogTitle className="font-pp-neue-corp-compact text-3xl font-semibold tracking-tight text-ink">
             {trip.name} {trip.dates}
           </DialogTitle>
           <DialogDescription className="font-dm-sans text-ink/70">
-            Rejoignez Goldies Travel pour ce voyage pensé par des femmes, pour des femmes.
-            Remplissez ce formulaire d'inscription pour valider votre place.
+            Rejoignez la prochaine aventure African Tour. Remplissez ce formulaire
+            d'inscription pour valider votre place.
           </DialogDescription>
         </DialogHeader>
 
@@ -230,7 +230,7 @@ const BookingFormModal: React.FC<BookingFormModalProps> = ({ isOpen, onClose, tr
 
             {/* T&Cs Block */}
             <div className="mt-12 space-y-6 pt-10 border-t border-ink/10">
-              <h2 className="font-pp-neue-corp-compact text-2xl font-black text-ink uppercase tracking-tight">Conditions Générales</h2>
+ <h2 className="font-pp-neue-corp-compact text-2xl font-semibold text-ink tracking-tight">Conditions Générales</h2>
               
               <div className="bg-white/60 p-6 rounded-2xl border border-ink/10 h-64 overflow-y-auto text-sm font-dm-sans text-ink/80 leading-relaxed space-y-4 shadow-inner">
                 <h4 className="font-bold text-ink uppercase">Conditions de participation au programme Goldie’s Travel</h4>
@@ -318,7 +318,7 @@ const BookingFormModal: React.FC<BookingFormModalProps> = ({ isOpen, onClose, tr
 
             <div className="py-8">
                <div className="bg-white/50 backdrop-blur-sm rounded-2xl p-6 mb-8 text-center shadow-sm">
-                 <h4 className="font-pp-neue-corp-compact font-black text-xl uppercase mb-2">Les prochaines étapes</h4>
+ <h4 className="font-pp-neue-corp-compact font-semibold text-xl mb-2">Les prochaines étapes</h4>
                  <ul className="text-sm font-dm-sans text-ink/80 space-y-2">
                    <li>1. Remplissez ce formulaire et payez l'acompte (ou la totalité) via Stripe.</li>
                    <li>2. Tu seras contactée très bientôt par téléphone !</li>

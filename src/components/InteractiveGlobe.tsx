@@ -216,19 +216,19 @@ const InteractiveGlobe: React.FC<InteractiveGlobeProps> = ({ variant = 'default'
         let radius = pt.isLand ? 1.6 : 0.8;
         let alpha = pt.isLand ? (0.32 + wave * 0.1) : 0.06;
 
-        let rC = 200, gC = 190, bC = 190; // Default muted grey/pink
+        let rC = 200, gC = 184, bC = 160; // Default muted sand
 
         if (variant === 'vivid') {
-          rC = 255; gC = 107; bC = 158; // Pinkish vivid
+          rC = 185; gC = 95; bC = 61; // Terracotta vivid
           alpha = pt.isLand ? (0.42 + wave * 0.15) : 0.08;
         }
 
         // Highlight regions (Morocco / Senegal)
         if (pt.isMorocco || pt.isSenegal) {
           if (variant === 'vivid') {
-            rC = 255; gC = 80; bC = 130;
+            rC = 217; gC = 168; bC = 118; // Warm bronze/gold
           } else {
-            rC = 233; gC = 155; bC = 169; // #e99ba9
+            rC = 180; gC = 134; bC = 79; // #B4864F
           }
           radius = 3.5;
           alpha = 0.8 + wave * 0.15;

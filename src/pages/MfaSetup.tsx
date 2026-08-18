@@ -23,7 +23,7 @@ const MfaSetup = () => {
     const enroll = async () => {
       const { data: sessionData } = await supabase.auth.getSession();
       if (!sessionData.session) {
-        navigate("/gestion-goldies");
+        navigate("/gestion-african-tour");
         return;
       }
 
@@ -41,7 +41,7 @@ const MfaSetup = () => {
           description: error?.message ?? "Impossible d'initialiser le 2FA",
           variant: "destructive",
         });
-        navigate("/gestion-goldies");
+        navigate("/gestion-african-tour");
         return;
       }
 
@@ -61,7 +61,7 @@ const MfaSetup = () => {
       const { error } = await supabase.auth.mfa.challengeAndVerify({ factorId, code });
       if (error) throw error;
       toast({ title: "2FA activé", description: "Google Authenticator configuré avec succès" });
-      navigate("/gestion-goldies");
+      navigate("/gestion-african-tour");
     } catch {
       setError("Code invalide, réessayez");
       setCode("");
@@ -82,7 +82,7 @@ const MfaSetup = () => {
     <div className="min-h-screen flex items-center justify-center bg-muted/30 px-4">
       <div className="w-full max-w-md bg-card rounded-2xl shadow-lg p-8">
         <div className="flex items-center gap-2 justify-center mb-6">
-          <img src={logo} alt="Goldies Travel" className="h-10 w-10" />
+          <img src={logo} alt="African Tour" className="h-10 w-10" />
           <span className="font-serif text-xl font-bold text-foreground">Activer le 2FA</span>
         </div>
 
@@ -129,7 +129,7 @@ const MfaSetup = () => {
           </div>
 
           <div className="flex gap-3">
-            <Button variant="outline" onClick={() => navigate("/gestion-goldies")} className="flex-1">
+            <Button variant="outline" onClick={() => navigate("/gestion-african-tour")} className="flex-1">
               Annuler
             </Button>
             <Button

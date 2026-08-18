@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Send, Instagram } from "lucide-react";
-import videoSenegal from "@/assets/goldiessenegalversion.mp4";
+import bgMaroc from "@/assets/dest-maroc.jpg";
 
 const Contact = () => {
   const [submitted, setSubmitted] = useState(false);
@@ -12,17 +12,10 @@ const Contact = () => {
 
   return (
     <section id="contact" className="relative min-h-screen flex items-center pt-24 pb-12 overflow-hidden">
-      {/* Background Video */}
+      {/* Background Image */}
       <div className="absolute inset-0 w-full h-full z-0">
-        <video 
-          autoPlay 
-          loop 
-          muted 
-          playsInline 
-          className="w-full h-full object-cover transform-gpu"
-        >
-          <source src={videoSenegal} type="video/mp4" />
-        </video>
+        <img src={bgMaroc} alt="" className="w-full h-full object-cover" />
+        <div className="absolute inset-0 bg-espresso/60" />
       </div>
 
       {/* Form & Text Container */}
@@ -33,8 +26,8 @@ const Contact = () => {
             <p className="font-dm-sans text-sm uppercase tracking-widest font-bold mb-3 text-white/90 drop-shadow-md pointer-events-none bg-white/10 px-4 py-1.5 rounded-full backdrop-blur-sm border border-white/20 w-max">
               Nous contacter
             </p>
-            <h2 className="font-pp-neue-corp-compact text-5xl md:text-7xl lg:text-8xl font-black uppercase tracking-tight leading-[1.05] drop-shadow-2xl pointer-events-none mb-8 mt-2">
-              Prête à <br className="hidden lg:block"/>partir ?
+ <h2 className="font-pp-neue-corp-compact text-5xl md:text-7xl lg:text-8xl font-semibold tracking-tight leading-[1.05] drop-shadow-2xl pointer-events-none mb-8 mt-2">
+              Envie de <br className="hidden lg:block"/>partir ?
             </h2>
             
             {/* Social Links */}
@@ -44,7 +37,7 @@ const Contact = () => {
               </p>
               <div className="flex items-center gap-3">
                 <a
-                  href="https://www.instagram.com/goldies.travel?igsh=MTV6dThwbjlrYzg0MA=="
+                  href="https://www.instagram.com/africantour.voyages/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 rounded-full shadow-lg bg-white/20 border border-white/30 flex items-center justify-center text-white hover:bg-citra-orange hover:text-ink hover:scale-110 transition-all duration-300"
@@ -53,7 +46,7 @@ const Contact = () => {
                   <Instagram size={18} />
                 </a>
                 <a
-                  href="https://www.tiktok.com/@goldies_travel?_r=1&_t=ZN-9716IvKcjKQ"
+                  href="https://www.tiktok.com/@africantour.voyages"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 rounded-full shadow-lg bg-white/20 border border-white/30 flex items-center justify-center text-white hover:bg-citra-orange hover:text-ink hover:scale-110 transition-all duration-300"
@@ -74,7 +67,7 @@ const Contact = () => {
                 <div className="w-20 h-20 mx-auto rounded-full bg-citra-orange/20 flex items-center justify-center mb-6">
                   <Send size={32} className="text-citra-orange" />
                 </div>
-                <h3 className="font-pp-neue-corp-compact text-3xl font-black text-ink uppercase tracking-tight mb-4">
+ <h3 className="font-pp-neue-corp-compact text-3xl font-semibold text-ink tracking-tight mb-4">
                   Message envoyé !
                 </h3>
                 <p className="font-dm-sans text-lg font-medium text-ink/70">
@@ -144,7 +137,7 @@ const Contact = () => {
                 </div>
                 <button
                   type="submit"
-                  className="w-full rounded-full bg-[#e99ba9] py-4 text-lg font-dm-sans font-bold text-white hover:scale-[1.02] transition-transform shadow-[0_8px_30px_rgb(233,155,169,0.3)] flex items-center justify-center gap-3"
+                  className="w-full rounded-full bg-citra-orange py-4 text-lg font-dm-sans font-bold text-white hover:scale-[1.02] transition-transform shadow-[0_8px_30px_rgba(185,95,61,0.35)] flex items-center justify-center gap-3"
                 >
                   <Send size={20} />
                   Envoyer

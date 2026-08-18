@@ -53,13 +53,13 @@ const GalleryCarousel = () => {
   const displayPhotos = [...photos, ...photos];
 
   return (
-    <section className="relative py-24 bg-[#BCE3F1] overflow-hidden">
+    <section className="relative py-24 bg-pastel-sand overflow-hidden">
       {/* Animated Background Elements */}
       <div className="absolute inset-0 w-full h-full pointer-events-none z-0">
         <AnimatedStrings />
-        <div className="absolute -top-40 -left-40 w-[600px] h-[600px] bg-pastel-lime/60 rounded-full blur-[120px] animate-float-slow mix-blend-multiply opacity-80"></div>
-        <div className="absolute top-20 -right-20 w-[500px] h-[500px] bg-blue-300/40 rounded-full blur-[100px] animate-float-slow mix-blend-multiply opacity-80" style={{ animationDelay: "2s" }}></div>
-        <div className="absolute -bottom-40 left-1/4 w-[800px] h-[600px] bg-emerald-300/30 rounded-full blur-[150px] animate-float-slow mix-blend-multiply opacity-80" style={{ animationDelay: "4s" }}></div>
+        <div className="absolute -top-40 -left-40 w-[600px] h-[600px] bg-[#B4864F]/30 rounded-full blur-[120px] animate-float-slow mix-blend-multiply opacity-80"></div>
+        <div className="absolute top-20 -right-20 w-[500px] h-[500px] bg-[#B95F3D]/20 rounded-full blur-[100px] animate-float-slow mix-blend-multiply opacity-80" style={{ animationDelay: "2s" }}></div>
+        <div className="absolute -bottom-40 left-1/4 w-[800px] h-[600px] bg-[#E6D5BB]/60 rounded-full blur-[150px] animate-float-slow mix-blend-multiply opacity-80" style={{ animationDelay: "4s" }}></div>
       </div>
 
       {/* Section header */}
@@ -67,7 +67,7 @@ const GalleryCarousel = () => {
         <p className="text-sm font-dm-sans uppercase tracking-wider font-bold text-citra-orange mb-4">
           GALERIE
         </p>
-        <h2 className="font-pp-neue-corp-compact font-black uppercase tracking-tight text-ink text-5xl md:text-7xl mb-4">
+ <h2 className="font-pp-neue-corp-compact font-semibold tracking-tight text-ink text-5xl md:text-7xl mb-4">
           Nos plus beaux moments
         </h2>
         <span className="block font-dm-sans font-medium text-lg text-ink/80">
@@ -95,7 +95,7 @@ const GalleryCarousel = () => {
             <div className="w-full h-full relative">
               <img
                 src={photo.image_url}
-                alt={photo.caption || "Souvenir de voyage Goldies"}
+                alt={photo.caption || "Souvenir de voyage African Tour"}
                 className="w-full h-full object-cover transition-all duration-500 hover:scale-105"
                 loading="lazy"
               />

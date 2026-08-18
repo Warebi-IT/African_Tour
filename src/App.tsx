@@ -46,8 +46,8 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <div className="min-h-screen bg-zinc-950 p-2 md:p-4 font-dm-sans text-ink">
-        <main className="bg-white rounded-[2rem] overflow-hidden min-h-[calc(100vh-1rem)] md:min-h-[calc(100vh-2rem)] shadow-2xl relative flex flex-col">
+      <div className="min-h-screen bg-espresso p-2 md:p-4 font-dm-sans text-ink">
+        <main className="bg-concrete-canvas rounded-[2rem] overflow-hidden min-h-[calc(100vh-1rem)] md:min-h-[calc(100vh-2rem)] shadow-2xl relative flex flex-col">
           <BrowserRouter>
             <ScrollToTop />
             <Routes>
@@ -58,7 +58,7 @@ const App = () => (
               <Route path="/concept" element={<Concept />} />
               <Route path="/avis" element={<Avis />} />
               <Route path="/contact" element={<ContactPage />} />
-              <Route path="/gestion-goldies" element={<Admin />} />
+              <Route path="/gestion-african-tour" element={<Admin />} />
               <Route path="/mfa-setup" element={<MfaSetup />} />
               <Route path="/mfa-verify" element={<MfaVerify />} />
               <Route path="/set-password" element={<SetPassword />} />

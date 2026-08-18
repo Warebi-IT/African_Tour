@@ -20,17 +20,17 @@ const Navbar = () => {
       
       {/* 1. Left: Isolated Logo */}
       <div className="pointer-events-auto">
-        <Link 
-          to="/" 
+        <Link
+          to="/"
           className="flex items-center gap-2 bg-white/95 backdrop-blur-md px-4 py-2 rounded-full shadow-lg hover:shadow-xl transition-all group"
         >
           <AnimatedLogo className="h-8 w-8" />
-          <div className="flex items-baseline gap-1 mt-1">
-            <span className="font-pp-neue-corp-compact text-xl font-black uppercase tracking-tight text-[#e99ba9] leading-none group-hover:text-citra-orange transition-colors">
-              GOLDIES
+          <div className="flex items-baseline gap-1.5">
+ <span className="font-pp-neue-corp-compact text-xl font-semibold tracking-tight text-ink leading-none group-hover:text-citra-orange transition-colors">
+              African
             </span>
-            <span className="font-pp-neue-corp-compact text-sm font-black uppercase tracking-tight text-[#BCE3F1] leading-none">
-              TRAVEL
+ <span className="font-pp-neue-corp-compact text-xl italic font-medium tracking-tight text-citra-orange leading-none">
+              Tour
             </span>
           </div>
         </Link>
@@ -66,7 +66,7 @@ const Navbar = () => {
         {/* Social Links (Desktop) */}
         <div className="hidden md:flex items-center gap-2 mr-2 bg-white/95 backdrop-blur-md px-3 py-2 rounded-full shadow-lg">
           <a
-            href="https://www.instagram.com/goldies.travel?igsh=MTV6dThwbjlrYzg0MA=="
+            href="https://www.instagram.com/africantour.voyages/"
             target="_blank"
             rel="noopener noreferrer"
             className="w-8 h-8 rounded-full flex items-center justify-center text-ink/70 hover:bg-citra-orange hover:text-ink transition-all"
@@ -75,7 +75,7 @@ const Navbar = () => {
             <Instagram size={16} />
           </a>
           <a
-            href="https://www.tiktok.com/@goldies_travel?_r=1&_t=ZN-9716IvKcjKQ"
+            href="https://www.tiktok.com/@africantour.voyages"
             target="_blank"
             rel="noopener noreferrer"
             className="w-8 h-8 rounded-full flex items-center justify-center text-ink/70 hover:bg-citra-orange hover:text-ink transition-all"

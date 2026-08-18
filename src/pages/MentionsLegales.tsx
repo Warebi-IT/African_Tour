@@ -9,15 +9,15 @@ const MentionsLegales = () => {
       
       <main className="pt-32 pb-20">
         <div className="container mx-auto max-w-[800px] px-6">
-          <h1 className="font-pp-neue-corp-compact text-5xl md:text-7xl font-black text-ink uppercase tracking-tight mb-12">
+ <h1 className="font-pp-neue-corp-compact text-5xl md:text-7xl font-semibold text-ink tracking-tight mb-12">
             Mentions Légales
           </h1>
           
-          <div className="prose prose-lg prose-headings:font-pp-neue-corp-compact prose-headings:uppercase prose-headings:tracking-tight prose-a:text-citra-orange max-w-none font-dm-sans text-ink/80">
+ <div className="prose prose-lg prose-headings:font-pp-neue-corp-compact prose-headings:prose-headings:tracking-tight prose-a:text-citra-orange max-w-none font-dm-sans text-ink/80">
             
             <h2>1. Éditeur du site</h2>
             <p>
-              Le site <strong>Goldies Travel</strong> est édité par :<br/>
+              Le site <strong>African Tour</strong> est édité par :<br/>
               [Nom de votre Société ou Auto-entreprise]<br/>
               [Statut juridique et Capital social si applicable]<br/>
               SIRET : [Numéro SIRET]<br/>
@@ -36,7 +36,7 @@ const MentionsLegales = () => {
             <h2>3. Contact</h2>
             <p>
               Pour toute question ou demande d'information, vous pouvez nous contacter :<br/>
-              Par email : <a href="mailto:contact@goldiestravel.com">contact@goldiestravel.com</a><br/>
+              Par email : <a href="mailto:contact@africantour.com">contact@africantour.com</a><br/>
               Par téléphone : [Votre Numéro]
             </p>
 

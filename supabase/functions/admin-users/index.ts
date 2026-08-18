@@ -6,7 +6,7 @@ const corsHeaders = {
   "Access-Control-Allow-Methods": "GET, POST, DELETE, OPTIONS",
 };
 
-const EMAIL_DOMAIN = "goldies.local";
+const EMAIL_DOMAIN = "africantour.local";
 
 const admin = createClient(
   Deno.env.get("SUPABASE_URL")!,

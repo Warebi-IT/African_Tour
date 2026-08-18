@@ -48,14 +48,14 @@ const Gallery = () => {
             <p className="font-dm-sans text-sm uppercase tracking-wider text-citra-orange font-bold mb-3">
               [ GALERIE PHOTOS ]
             </p>
-            <h1 className="font-pp-neue-corp-compact text-5xl md:text-7xl font-black text-ink uppercase tracking-tight mb-4">
+ <h1 className="font-pp-neue-corp-compact text-5xl md:text-7xl font-semibold text-ink tracking-tight mb-4">
               Nos souvenirs de voyage
             </h1>
-            <span className="font-pp-neue-corp-compact text-2xl text-ink/80 block mb-6">
+ <span className="font-pp-neue-corp-compact text-2xl text-ink/80 block mb-6">
               Des sourires, de l'entraide et des paysages inoubliables
             </span>
             <p className="max-w-xl mx-auto text-lg font-dm-sans font-medium text-ink/80 leading-relaxed">
-              Revivez les plus beaux moments de nos aventures à travers les albums partagés par nos voyageuses.
+              Revivez les plus beaux moments de nos aventures à travers les albums partagés par nos voyageurs.
             </p>
           </div>
 
@@ -98,7 +98,7 @@ const Gallery = () => {
                         <span className="font-dm-sans text-xs font-bold uppercase tracking-wider">{album.destination}</span>
                       </div>
                     )}
-                    <h3 className="font-pp-neue-corp-compact text-2xl font-black text-ink uppercase tracking-tight group-hover:text-citra-orange transition-colors mb-3">
+ <h3 className="font-pp-neue-corp-compact text-2xl font-semibold text-ink tracking-tight group-hover:text-citra-orange transition-colors mb-3">
                       {album.title}
                     </h3>
                     {album.description && (
@@ -118,7 +118,7 @@ const Gallery = () => {
               >
                 ← Retour aux albums
               </button>
-              <h2 className="font-pp-neue-corp-compact text-4xl md:text-5xl font-black text-ink uppercase tracking-tight mb-4">
+ <h2 className="font-pp-neue-corp-compact text-4xl md:text-5xl font-semibold text-ink tracking-tight mb-4">
                 {activeAlbum.title}
               </h2>
               {activeAlbum.description && (

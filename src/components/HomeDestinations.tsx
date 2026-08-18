@@ -36,12 +36,12 @@ const HomeDestinations = () => {
           <p className="text-sm font-dm-sans uppercase tracking-wider font-bold text-citra-orange mb-3">
             SÉJOURS
           </p>
-          <h2 className="font-pp-neue-corp-compact font-black uppercase tracking-tight text-ink text-5xl md:text-7xl mb-4">
+ <h2 className="font-pp-neue-corp-compact font-semibold tracking-tight text-ink text-5xl md:text-7xl mb-4">
             Explorez l'Afrique
           </h2>
           <p className="max-w-xl mx-auto text-lg font-dm-sans font-medium text-ink leading-relaxed">
-            Des voyages en groupe qui inspirent confiance et sororité. Hébergement, transport,
-            activités solidaires et repas inclus.
+            Prochaines aventures : des voyages en groupe pour découvrir, rencontrer et partager.
+            Hébergement, transport, activités et repas inclus selon le programme.
           </p>
         </div>
 
@@ -96,10 +96,10 @@ const HomeDestinations = () => {
                       <MapPin size={14} />
                       <span className="font-dm-sans text-xs font-bold uppercase tracking-wider">{d.destination}</span>
                     </div>
-                    <span className="font-pp-neue-corp-compact font-black text-2xl text-ink">{d.price} €</span>
+ <span className="font-pp-neue-corp-compact font-semibold text-2xl text-ink">{d.price} €</span>
                   </div>
 
-                  <h3 className="font-pp-neue-corp-compact text-2xl font-black text-ink uppercase tracking-tight mb-2 group-hover:text-citra-orange transition-colors">
+ <h3 className="font-pp-neue-corp-compact text-2xl font-semibold text-ink tracking-tight mb-2 group-hover:text-citra-orange transition-colors">
                     {d.name}
                   </h3>
 
