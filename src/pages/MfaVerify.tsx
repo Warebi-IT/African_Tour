@@ -17,7 +17,7 @@ const MfaVerify = () => {
     const init = async () => {
       const { data: sessionData } = await supabase.auth.getSession();
       if (!sessionData.session) {
-        navigate("/gestion-african-tour");
+        navigate("/gestion-goldies");
         return;
       }
 
@@ -47,7 +47,7 @@ const MfaVerify = () => {
     try {
       const { error } = await supabase.auth.mfa.challengeAndVerify({ factorId, code });
       if (error) throw error;
-      navigate("/gestion-african-tour");
+      navigate("/gestion-goldies");
     } catch {
       setError("Code invalide, réessayez");
       setCode("");
@@ -68,13 +68,13 @@ const MfaVerify = () => {
     <div className="min-h-screen flex items-center justify-center bg-muted/30 px-4">
       <div className="w-full max-w-sm bg-card rounded-2xl shadow-lg p-8">
         <div className="flex items-center gap-2 justify-center mb-6">
-          <img src={logo} alt="African Tour" className="h-10 w-10" />
+          <img src={logo} alt="Goldies Travel" className="h-10 w-10" />
           <span className="font-serif text-xl font-bold text-foreground">Vérification 2FA</span>
         </div>
 
         <div className="space-y-5">
           <p className="text-sm text-muted-foreground text-center">
-            Entrez le code à 6 chiffres de votre application Google Authenticator
+            Entrez le code à 6 chiffres de votre application d'authentification (Microsoft Authenticator, Google Authenticator, etc.)
           </p>
 
           <div className="flex justify-center">
@@ -104,7 +104,7 @@ const MfaVerify = () => {
             variant="ghost"
             onClick={async () => {
               await supabase.auth.signOut();
-              navigate("/gestion-african-tour");
+              navigate("/gestion-goldies");
             }}
             className="w-full text-muted-foreground"
           >

@@ -9,28 +9,31 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="py-16 mt-20 bg-espresso text-cream-card">
-      <div className="container mx-auto max-w-[1280px] px-6">
+    <footer className="py-16 mt-20 bg-ink text-white relative overflow-hidden">
+      {/* Subtle decorative atmosphere matching the pastel blue waves */}
+      <div className="absolute top-[-20%] right-[-10%] w-[500px] h-[500px] bg-white/30 rounded-full blur-[120px] pointer-events-none animate-float-slow"></div>
+      <div className="absolute bottom-[-30%] left-[-10%] w-[600px] h-[600px] rounded-full border border-white/30 pointer-events-none mix-blend-overlay"></div>
+      <div className="absolute bottom-[-35%] left-[-5%] w-[700px] h-[700px] rounded-full border border-white/20 pointer-events-none mix-blend-overlay"></div>
+
+      <div className="container mx-auto max-w-[1280px] px-6 relative z-10">
         <div className="grid md:grid-cols-3 gap-12 mb-12">
           {/* Brand */}
           <div>
-            <div className="flex items-center gap-3 mb-6">
-              <div className="h-12 w-12 rounded-full bg-cream-card flex items-center justify-center shrink-0 p-2">
-                <AnimatedLogo className="h-full w-full" />
-              </div>
- <span className="font-pp-neue-corp-compact text-3xl font-semibold tracking-tight text-cream-card leading-none">
-                African <span className="italic font-medium text-[#D9A876]">Tour</span>
+            <div className="flex items-center gap-2 mb-6">
+              <AnimatedLogo className="h-10 w-10" />
+              <span className="font-pp-neue-corp-compact text-3xl font-black uppercase tracking-tight text-white leading-none">
+                GOLDIES TRAVEL
               </span>
             </div>
-            <p className="text-cream-card/80 text-sm font-dm-sans font-medium leading-relaxed">
-              Des voyages de groupe immersifs en Afrique : découvrir, rencontrer,
-              partager, déconnecter et contribuer. Une aventure humaine, avant tout.
+            <p className="text-white/80 text-sm font-dm-sans font-medium leading-relaxed">
+              Voyager autrement. Rencontrer, partager, grandir.
+              Agence spécialisée dans l'organisation de voyages immersifs et expérientiels en Afrique.
             </p>
           </div>
 
           {/* Links */}
           <div>
- <h4 className="font-pp-neue-corp-compact text-2xl font-semibold text-cream-card tracking-tight mb-4">
+            <h4 className="font-pp-neue-corp-compact text-2xl font-black text-white uppercase tracking-tight mb-4">
               Navigation
             </h4>
             <div className="flex flex-col sm:flex-row gap-8 sm:gap-16">
@@ -43,7 +46,7 @@ const Footer = () => {
                   { label: "Contact", to: "/contact" },
                 ].map((l) => (
                   <li key={l.label}>
-                    <Link to={l.to} className="text-sm font-dm-sans font-medium text-cream-card/70 hover:text-citra-orange transition-colors">
+                    <Link to={l.to} className="text-sm font-dm-sans font-medium text-white/70 hover:text-white hover:font-bold transition-all">
                       {l.label}
                     </Link>
                   </li>
@@ -56,28 +59,37 @@ const Footer = () => {
                   { label: "CGV", to: "/cgv" },
                 ].map((l) => (
                   <li key={l.label}>
-                    <Link to={l.to} className="text-sm font-dm-sans font-medium text-cream-card/70 hover:text-citra-orange transition-colors">
+                    <Link to={l.to} className="text-sm font-dm-sans font-medium text-white/70 hover:text-white hover:font-bold transition-all">
                       {l.label}
                     </Link>
                   </li>
                 ))}
+                <li>
+                  <button
+                    type="button"
+                    onClick={() => window.dispatchEvent(new Event('open_cookie_preferences'))}
+                    className="text-sm font-dm-sans font-medium text-white/70 hover:text-white hover:font-bold transition-all text-left"
+                  >
+                    Gestion des cookies
+                  </button>
+                </li>
               </ul>
             </div>
           </div>
 
           {/* Contact */}
           <div>
- <h4 className="font-pp-neue-corp-compact text-2xl font-semibold text-cream-card tracking-tight mb-4">
+            <h4 className="font-pp-neue-corp-compact text-2xl font-black text-white uppercase tracking-tight mb-4">
               Nous suivre
             </h4>
             <div className="flex gap-4">
               <Tooltip>
                 <TooltipTrigger asChild>
                   <a
-                    href="https://www.instagram.com/africantour.voyages/"
+                    href="https://www.instagram.com/goldies.travel?igsh=MTV6dThwbjlrYzg0MA=="
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-12 h-12 rounded-full shadow-sm bg-white/10 flex items-center justify-center text-cream-card hover:bg-citra-orange hover:text-ink hover:shadow-md transition-all duration-300 hover:-translate-y-1"
+                    className="w-12 h-12 rounded-full bg-white/10 border border-white/20 backdrop-blur-md flex items-center justify-center text-white hover:bg-white hover:text-ion-violet hover:shadow-[0_0_20px_rgba(255,255,255,0.3)] transition-all duration-300 hover:-translate-y-1"
                     aria-label="Instagram"
                   >
                     <Instagram size={20} />
@@ -91,10 +103,10 @@ const Footer = () => {
               <Tooltip>
                 <TooltipTrigger asChild>
                   <a
-                    href="https://www.tiktok.com/@africantour.voyages"
+                    href="https://www.tiktok.com/@goldies_travel?_r=1&_t=ZN-9716IvKcjKQ"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-12 h-12 rounded-full shadow-sm bg-white/10 flex items-center justify-center text-cream-card hover:bg-citra-orange hover:text-ink hover:shadow-md transition-all duration-300 hover:-translate-y-1"
+                    className="w-12 h-12 rounded-full bg-white/10 border border-white/20 backdrop-blur-md flex items-center justify-center text-white hover:bg-white hover:text-ion-violet hover:shadow-[0_0_20px_rgba(255,255,255,0.3)] transition-all duration-300 hover:-translate-y-1"
                     aria-label="TikTok"
                   >
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -110,8 +122,53 @@ const Footer = () => {
               <Tooltip>
                 <TooltipTrigger asChild>
                   <a
-                    href="mailto:contact@africantour.com"
-                    className="w-12 h-12 rounded-full shadow-sm bg-white/10 flex items-center justify-center text-cream-card hover:bg-citra-orange hover:text-ink hover:shadow-md transition-all duration-300 hover:-translate-y-1"
+                    href="https://chat.whatsapp.com/JwP9zvmow5UJyfeiVkiSbE?mode=gi_t"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-12 h-12 rounded-full bg-white/10 border border-white/20 backdrop-blur-md flex items-center justify-center text-white hover:bg-white hover:text-ion-violet hover:shadow-[0_0_20px_rgba(255,255,255,0.3)] transition-all duration-300 hover:-translate-y-1"
+                    aria-label="WhatsApp"
+                  >
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M20.52 3.449A11.968 11.968 0 0 0 12.001 0C5.352 0 0 5.349 0 11.999c0 2.118.552 4.187 1.602 6.002L0 24l6.198-1.626a11.91 11.91 0 0 0 5.803 1.477h.005c6.649 0 12.001-5.35 12.001-12.001A11.933 11.933 0 0 0 20.52 3.449zM12.001 21.848a9.927 9.927 0 0 1-5.056-1.385l-.363-.216-3.766.988 1.006-3.669-.236-.376A9.878 9.878 0 0 1 2.13 12.001c0-5.467 4.453-9.92 9.924-9.92 2.656 0 5.152 1.035 7.028 2.913a9.897 9.897 0 0 1 2.903 7.024c0 5.468-4.454 9.92-9.922 9.92zm5.454-7.447c-.299-.15-1.768-.873-2.042-.973-.274-.101-.473-.15-.672.15-.2.3-.776.973-.951 1.173-.174.2-.349.225-.648.075-.3-.15-1.264-.466-2.407-1.487-.89-.793-1.49-1.77-1.664-2.069-.174-.3-.018-.463.13-.612.134-.134.3-.349.449-.523.15-.174.201-.3.3-.5.1-.2.05-.374-.025-.523-.075-.15-.672-1.62-.922-2.217-.238-.576-.48-.498-.672-.507-.174-.01-.374-.01-.574-.01s-.524.075-.798.374c-.274.3-1.047 1.023-.997 2.493.05 1.47 1.071 2.891 1.221 3.09s2.122 3.242 5.143 4.545c.717.309 1.276.494 1.713.627.721.229 1.378.197 1.896.12.576-.086 1.768-.723 2.016-1.422.248-.7.248-1.298.174-1.422-.074-.124-.273-.199-.572-.348z"/>
+                    </svg>
+                  </a>
+                </TooltipTrigger>
+                <TooltipContent className="bg-ink border-cream-card/10 text-cream-card font-dm-sans">
+                  <p>WhatsApp</p>
+                </TooltipContent>
+              </Tooltip>
+
+              <Tooltip>
+                <TooltipTrigger asChild>
+                  <a
+                    href="https://linktr.ee/goldiestraveel?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQPOTM2NjE5NzQzMzkyNDU5AAGnCgMPOU8iPMDmlD4_I8SVyIlxro-W_Ecneah7aSOgXTf5br_kf1C_CUfUHRY_aem_mmKyfr9r-ot3WxjMpwK_Jg"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-12 h-12 rounded-full bg-white/10 border border-white/20 backdrop-blur-md flex items-center justify-center text-white hover:bg-white hover:text-ion-violet hover:shadow-[0_0_20px_rgba(255,255,255,0.3)] transition-all duration-300 hover:-translate-y-1"
+                    aria-label="Linktree"
+                  >
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                      <path d="M12 10V4" />
+                      <path d="M12 10l4.5-4.5" />
+                      <path d="M12 10h6" />
+                      <path d="M12 10l4.5 4.5" />
+                      <path d="M12 10L7.5 14.5" />
+                      <path d="M12 10H6" />
+                      <path d="M12 10L7.5 5.5" />
+                      <path d="M12 15v5" />
+                    </svg>
+                  </a>
+                </TooltipTrigger>
+                <TooltipContent className="bg-ink border-cream-card/10 text-cream-card font-dm-sans">
+                  <p>Linktree</p>
+                </TooltipContent>
+              </Tooltip>
+
+              <Tooltip>
+                <TooltipTrigger asChild>
+                  <a
+                    href="mailto:contact@goldiestravel.com"
+                    className="w-12 h-12 rounded-full bg-white/10 border border-white/20 backdrop-blur-md flex items-center justify-center text-white hover:bg-white hover:text-ion-violet hover:shadow-[0_0_20px_rgba(255,255,255,0.3)] transition-all duration-300 hover:-translate-y-1"
                     aria-label="Email"
                   >
                     <Mail size={20} />
@@ -125,9 +182,9 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="pt-8 text-left md:text-center mt-8 border-t border-cream-card/10">
-          <p className="text-xs font-dm-sans font-medium uppercase tracking-widest text-cream-card/60">
-            © {new Date().getFullYear()} AFRICAN TOUR. TOUS DROITS RÉSERVÉS.
+        <div className="pt-8 text-left md:text-center mt-8 border-t border-white/20">
+          <p className="text-xs font-dm-sans font-medium uppercase tracking-widest text-white/70">
+            © {new Date().getFullYear()} GOLDIES TRAVEL. TOUS DROITS RÉSERVÉS.
           </p>
         </div>
       </div>

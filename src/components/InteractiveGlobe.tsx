@@ -216,19 +216,19 @@ const InteractiveGlobe: React.FC<InteractiveGlobeProps> = ({ variant = 'default'
         let radius = pt.isLand ? 1.6 : 0.8;
         let alpha = pt.isLand ? (0.32 + wave * 0.1) : 0.06;
 
-        let rC = 200, gC = 184, bC = 160; // Default muted sand
+        let rC = 200, gC = 190, bC = 190; // Default muted grey/pink
 
         if (variant === 'vivid') {
-          rC = 185; gC = 95; bC = 61; // Terracotta vivid
+          rC = 255; gC = 107; bC = 158; // Pinkish vivid
           alpha = pt.isLand ? (0.42 + wave * 0.15) : 0.08;
         }
 
         // Highlight regions (Morocco / Senegal)
         if (pt.isMorocco || pt.isSenegal) {
           if (variant === 'vivid') {
-            rC = 217; gC = 168; bC = 118; // Warm bronze/gold
+            rC = 255; gC = 80; bC = 130;
           } else {
-            rC = 180; gC = 134; bC = 79; // #B4864F
+            rC = 233; gC = 155; bC = 169; // #e99ba9
           }
           radius = 3.5;
           alpha = 0.8 + wave * 0.15;
@@ -280,12 +280,12 @@ const InteractiveGlobe: React.FC<InteractiveGlobeProps> = ({ variant = 'default'
         }
         radius = Math.max(0.5, radius);
 
-        const baseAlpha = Math.max(0, 0.6 - (p.rowOffset / 80));
+        let baseAlpha = Math.max(0, 0.6 - (p.rowOffset / 80));
         let alpha = baseAlpha * (0.3 + wave * 0.7);
 
-        const rC = variant === 'vivid' ? 185 : 200;
-        const gC = variant === 'vivid' ? 95 : 184;
-        const bC = variant === 'vivid' ? 61 : 160;
+        let rC = variant === 'vivid' ? 255 : 233;
+        let gC = variant === 'vivid' ? 107 : 155;
+        let bC = variant === 'vivid' ? 158 : 169;
 
         if (hoverRatio > 0) {
           radius += hoverRatio * (extraGap * 0.4);

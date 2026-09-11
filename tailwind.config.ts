@@ -15,10 +15,9 @@ export default {
     extend: {
       fontFamily: {
         sans: ["var(--font-sans-serif)"],
-        serif: ["var(--font-pp-neue-corp-compact)", "serif"],
+        serif: ["Playfair Display", "serif"],
         "dm-sans": ["var(--font-dm-sans)"],
         "pp-neue-corp-compact": ["var(--font-pp-neue-corp-compact)"],
-        caveat: ["var(--font-caveat)"],
         control: ["var(--font-dm-sans)"],
         "control-compressed": ["var(--font-pp-neue-corp-compact)"],
         "control-cursive": ["var(--font-pp-neue-corp-compact)"],
@@ -33,7 +32,6 @@ export default {
         "concrete-canvas": "var(--color-concrete-canvas)",
         "cream-card": "var(--color-cream-card)",
         ink: "var(--color-ink)",
-        espresso: "var(--color-espresso)",
         "pure-black": "var(--color-pure-black)",
         "paper-white": "var(--color-paper-white)",
         "citra-orange": "var(--color-citra-orange)",
@@ -54,6 +52,33 @@ export default {
         "cloud-white": "var(--color-cream-card)",
         "charcoal-text": "var(--color-ink)",
         "haze-grey": "var(--color-concrete-canvas)",
+        
+        /* Night Blue overrides for grays */
+        gray: {
+          50: '#f0f2f7',
+          100: '#e1e5ee',
+          200: '#c5cddf',
+          300: '#a8b4cf',
+          400: '#8c9cbf',
+          500: '#6f84af',
+          600: '#566a94',
+          700: '#435374',
+          800: '#2f3b53',
+          900: '#1E2A4A',
+          950: '#111728',
+        },
+        slate: {
+          50: '#f0f2f7', 100: '#e1e5ee', 200: '#c5cddf', 300: '#a8b4cf', 400: '#8c9cbf', 500: '#6f84af', 600: '#566a94', 700: '#435374', 800: '#2f3b53', 900: '#1E2A4A', 950: '#111728',
+        },
+        zinc: {
+          50: '#f0f2f7', 100: '#e1e5ee', 200: '#c5cddf', 300: '#a8b4cf', 400: '#8c9cbf', 500: '#6f84af', 600: '#566a94', 700: '#435374', 800: '#2f3b53', 900: '#1E2A4A', 950: '#111728',
+        },
+        neutral: {
+          50: '#f0f2f7', 100: '#e1e5ee', 200: '#c5cddf', 300: '#a8b4cf', 400: '#8c9cbf', 500: '#6f84af', 600: '#566a94', 700: '#435374', 800: '#2f3b53', 900: '#1E2A4A', 950: '#111728',
+        },
+        stone: {
+          50: '#f0f2f7', 100: '#e1e5ee', 200: '#c5cddf', 300: '#a8b4cf', 400: '#8c9cbf', 500: '#6f84af', 600: '#566a94', 700: '#435374', 800: '#2f3b53', 900: '#1E2A4A', 950: '#111728',
+        },
         
         primary: {
           DEFAULT: "var(--color-citra-orange)",
@@ -120,6 +145,15 @@ export default {
           "45%": { transform: "scale(1.15)" },
           "60%": { transform: "scale(1)" },
         },
+        "float-heart": {
+          "0%": { transform: "translateY(0px) rotate(-4deg)" },
+          "50%": { transform: "translateY(-14px) rotate(4deg)" },
+          "100%": { transform: "translateY(0px) rotate(-4deg)" },
+        },
+        "ticker": {
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(-33.333%)" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -128,6 +162,8 @@ export default {
         "noise-jitter": "noise-jitter 0.8s infinite",
         "float-slow": "float-slow 20s ease-in-out infinite",
         "pan-slow": "pan-slow 30s ease-in-out infinite alternate",
+        "float-heart": "float-heart 4s ease-in-out infinite",
+        "ticker": "ticker 28s linear infinite",
       },
     },
   },

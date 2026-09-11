@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { BrowserRouter, Route, Routes, useNavigate } from "react-router-dom";
+import { BrowserRouter, Route, Routes, useNavigate, Navigate } from "react-router-dom";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -30,6 +30,9 @@ const initialHash = window.location.hash;
 const AuthRedirect = () => {
   const navigate = useNavigate();
   useEffect(() => {
+    // Si l'utilisateur est déjà sur la page /set-password, ne pas écraser l'URL ni le hash
+    if (window.location.pathname === "/set-password") return;
+
     const isInvite = initialHash.includes("type=invite") || initialHash.includes("type=recovery");
     if (!isInvite) return;
     supabase.auth.getSession().then(({ data }) => {
@@ -46,9 +49,10 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <div className="min-h-screen bg-espresso p-2 md:p-4 font-dm-sans text-ink">
-        <main className="bg-concrete-canvas rounded-[2rem] overflow-hidden min-h-[calc(100vh-1rem)] md:min-h-[calc(100vh-2rem)] shadow-2xl relative flex flex-col">
+      <div className="min-h-screen bg-zinc-950 p-2 md:p-4 font-dm-sans text-ink">
+        <main className="bg-white rounded-[2rem] overflow-hidden min-h-[calc(100vh-1rem)] md:min-h-[calc(100vh-2rem)] shadow-2xl relative flex flex-col">
           <BrowserRouter>
+            <AuthRedirect />
             <ScrollToTop />
             <Routes>
               <Route path="/" element={<Index />} />
@@ -58,7 +62,8 @@ const App = () => (
               <Route path="/concept" element={<Concept />} />
               <Route path="/avis" element={<Avis />} />
               <Route path="/contact" element={<ContactPage />} />
-              <Route path="/gestion-african-tour" element={<Admin />} />
+              <Route path="/gestion-goldies" element={<Admin />} />
+              <Route path="/admin" element={<Navigate to="/gestion-goldies" replace />} />
               <Route path="/mfa-setup" element={<MfaSetup />} />
               <Route path="/mfa-verify" element={<MfaVerify />} />
               <Route path="/set-password" element={<SetPassword />} />

@@ -7,22 +7,26 @@ const CookieBanner = () => {
 
   useEffect(() => {
     // Check if the user has already made a choice
-    const consent = localStorage.getItem('african_tour_cookie_consent');
+    const consent = localStorage.getItem('goldies_cookie_consent');
     if (!consent) {
       // Delay showing the banner slightly for better UX
       const timer = setTimeout(() => setIsVisible(true), 1500);
       return () => clearTimeout(timer);
     }
+
+    const handleOpenBanner = () => setIsVisible(true);
+    window.addEventListener('open_cookie_preferences', handleOpenBanner);
+    return () => window.removeEventListener('open_cookie_preferences', handleOpenBanner);
   }, []);
 
   const handleAccept = () => {
-    localStorage.setItem('african_tour_cookie_consent', 'accepted');
+    localStorage.setItem('goldies_cookie_consent', 'accepted');
     setIsVisible(false);
     // Here you would initialize your tracking scripts (GA, Meta Pixel, etc.)
   };
 
   const handleDecline = () => {
-    localStorage.setItem('african_tour_cookie_consent', 'declined');
+    localStorage.setItem('goldies_cookie_consent', 'declined');
     setIsVisible(false);
     // Ensure no tracking scripts are loaded
   };
@@ -54,11 +58,11 @@ const CookieBanner = () => {
                 <Cookie size={20} />
               </div>
               <div>
- <h3 className="font-pp-neue-corp-compact font-bold text-xl text-ink mb-1">
+                <h3 className="font-pp-neue-corp-compact font-bold text-xl text-ink mb-1">
                   Cookies & Confidentialité
                 </h3>
                 <p className="font-dm-sans text-sm text-ink/70 leading-relaxed">
-                  Nous utilisons des cookies pour améliorer votre expérience sur African Tour et analyser notre trafic.
+                  Nous utilisons des cookies pour améliorer votre expérience sur Goldies et analyser notre trafic.
                 </p>
               </div>
             </div>
